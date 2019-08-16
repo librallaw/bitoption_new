@@ -1,0 +1,539 @@
+
+
+@media (max-width:1680px) {
+	.indi-desc { left: -70px; }
+}
+@media (max-width:1680px) { 
+    .indi-desc { padding: 35px 36px 30px 36px;     width: 414px;}
+}
+@media (max-width:1440px) { 
+    .indi-desc {  left: -70px; top: -320px;width: 375px; }
+	.tr-indicator-sec h4 { margin: 0 0 12px 0; }
+	.indi-desc h4 strong { line-height: 22px; }
+}
+@media (max-width:1366px) { 
+.indi-desc { width:340px; }
+}
+@media (min-width:992px) and (max-width:1199px) {
+.hdrlng{margin: 0 0 0 20px;}
+.hdrright {margin: 20px 0 0 0;}
+.menu-top-menu-container a{padding: 12px 15px;}
+.menu-top-menu-container li{margin: 0 0 0 5px;}
+
+.bnrfmico { width: 300px; }
+.bnrform { width: 640px; }
+.ofaform { width: 600px; }
+.tbuleft { width: 600px; }
+.tbu_section { padding: 44px 0 65px 0; }
+.tbuleft h1 { font-size: 34px; }
+.tbuleft p { padding: 0 70px 0 0; }
+.servitem { width:33%; padding: 15px 15px 15px 15px; height: 135px;}
+.servitem .servcnt { width: 70%; }
+.servitem:nth-child(2) { padding: 15px 14px 15px 14px; }
+.servitem:nth-child(3n) { padding: 14px 14px 14px 14px; }
+.servitem:nth-child(4) { padding: 20px 15px 20px 15px; }
+.servitem:nth-child(6) .servcnt, .servitem:nth-child(5) .servcnt { width: 70%; }
+.servitem:nth-child(5) { padding: 18px 10px 18px 10px; }
+.servitem:nth-child(6) { padding: 20px 12px 20px 12px; }
+.simplysteps { padding: 32px 0 43px 0; }
+.serv_blocks { padding: 40px 0 50px; }
+.tradeitem { width:33%; }
+.tradeitem:last-child p {  padding: 0px 12px; }
+.trade-sec .tradeitem p { padding: 0px 15px; }
+.outcom2 { width: 222px; margin: 0 10px; }
+.indi-desc { width: 320px; }
+.indi-trend .indi-desc { left: -8px; }
+.tr-indicator-sec h4 { margin-bottom:10px; }
+.indi-num { margin: 0 153px 0 0; }
+.indi-trend  { margin: 0 118px 100px 0; width: 180px; }
+.indi-rsi  { margin: 0 118px 100px 0; width: 180px; }
+.indi-williams { width: 180px;margin: 0 65px 100px 82px; }
+.indi-macd { margin: 98px 30px 0px 55px; }
+.indi-trend a, .indi-rsi a, .indi-williams a { width: 180px; }
+.indi-stoch { margin: 98px 30px 0px 96px; }
+.serv_blocks hr { width: 100%; }
+.serv_blocks hr:last-child { width: 93%; }
+.broker_sec { padding: 30px 0; }
+.prev-outcomes, .trade-sec { padding: 35px 0; }
+.broker_sec .owl-controls .owl-buttons .owl-prev { left: 90%; top: -150px; right: 0; }
+.broker_sec .owl-controls .owl-buttons .owl-next { right: 30px; margin: 0; top: -150px; }
+.indi-num:nth-child(2) { margin: 0 112px 0 0; }
+.indi-num:nth-child(3) { margin: 0 126px 0 0; }
+.indi-cci { margin: 100px 15px 0px 109px; }
+.tr-indicator-sec { padding: 20px 0 20px 0; }
+	
+/*Settings-page*/
+.container {width: 970px;}
+.footer-sec ul li{padding: 0px 12px;}
+.inner-bnr h1{font-size: 54px;line-height: normal;}
+
+/*Blog-page*/
+.blog-in-img img, .sblog-img img {width: 220px; height: auto;}
+.blog_main{padding: 30px 0;}
+.post-cnt{width: 75%;}
+.menu-top-menu-container {float: left;}
+.blog-meta{padding:35px 100px 15px;}
+/*Contact-page*/
+.inner-content .c-frm .map, .contact-frm{ width:49%;}
+.inner-content .c-frm .map:before{left: 192px;top: 188px;}
+.frm{padding: 30px 30px;}
+.frm:before{background-size: 100% auto;}
+/*Faq-page*/
+.etabs li{margin-right: 5px;}
+.etabs a{padding: 5px 7px;}
+}
+@media (min-width:768px) and (max-width:991px) {
+.logo {float: none;text-align: center;}
+.hdrcont{padding: 26px 0 0;}
+.hdrright {float: none;margin: 0 auto;text-align: center;width:76%;padding-top: 20px;}
+.hdrlng{margin: 0 0 0 20px;}
+.menu-top-menu-container li{margin: 0 5px;}
+
+.bnrfmico { width: 300px; margin: 0 auto; float: none; }
+.bnrform { width: 100%; }
+.ofaform { width: 555px; float: none; margin: 0 auto; }
+.bnrform h4 { font-size: 50px; }
+.bnrform h6 { font-size: 18px; }
+.tbu_section { padding: 34px 0 33px 0; }
+.tburight { width: 260px; }
+.tbuleft { width: 60%; }
+.bat_txt { font-size: 50px; }
+.tbuleft p img { margin: 35px 12px 35px 12px; }
+.tbuleft h1 { font-size: 26px; line-height: 36px; }
+.tbuleft h1::first-letter { font-size: 37px; }
+.tbuleft h3, .tbuleft h4 { font-size: 20px; }
+.tbuleft p {  padding: 0 15px 0 0; }
+.simplysteps { padding: 20px 0 42px 0;}
+.simplysteps h2 { font-size: 48px; margin: 0 0 30px 0;}
+.smplstep h3 { font-size: 20px; }
+.smplstep { padding: 0 10px; }
+.servitem { width: 33%; height: 135px; padding: 10px 12px 10px 12px;}
+.servitem .servimg { width: 45px; margin: 0px 10px 0px 0px; max-width: 100%; }
+.servitem .servcnt {  width: 70%; }
+.servitem .servcnt h3 { font-size: 20px; }
+.servitem:nth-child(2) { padding: 13px 10px 10px 10px; }
+.servitem:nth-child(3n) { padding: 10px 10px 10px 10px; }
+.servitem:nth-child(4), .servitem:nth-child(5), .servitem:nth-child(6) { padding: 10px 10px 10px 10px; }
+.servitem:nth-child(6) .servcnt, .servitem:nth-child(5) .servcnt { width: 70%; }
+.serv_blocks hr { width: 100%; }
+.serv_blocks hr:last-child {width: 90%; }
+.broker_sec { padding: 30px 0; }
+.broker_sec .owl-controls .owl-buttons .owl-prev { left: 85%; top: -150px; right: 0; }
+.broker_sec .owl-controls .owl-buttons .owl-next { right: 40px; margin: 0; top: -150px; }
+.broker_sec h2::first-letter {font-size: 50px; }
+.broker_sec h2 { font-size: 40px; }
+.txt-box {  padding: 35px 0 35px; }
+.prev-outcomes h2 { font-size:40px; }
+.prev-outcomes { padding: 35px 0; }
+.outcomes {  margin: 0 auto; float: none; width: 95%; }
+.outcom2 {  margin: 0 34px 25px; }
+.trade-sec h2 { font-size: 40px; }
+.trade-sec h4 { font-size: 16px; line-height: 20px; }
+.tradeitem { width: 33%; }
+.trade-sec .tradeitem p { padding:0; }
+.tradeitem:last-child p { padding: 0px; } 
+.tradeitem h3 a { font-size: 23px; }
+.trade-sec  {  padding: 20px 0; }
+.tr-indicator-sec { padding: 35px 0 20px 0; }
+.tr-indicator-sec h2 { font-size: 38px; }
+.tr-indicator-sec h2::first-letter { font-size: 48px; }
+.tr-indicator-sec h4 { font-size: 17px; line-height: 22px; padding: 0 10px; margin: 0 0 5px 0;}
+.indi-desc h4 strong { font-size: 14px; line-height: 20px; }
+.tr-indicator-sec p { padding: 0 10px;}
+.indi-trend {  margin: 0 100px 100px 0; }
+.indi-rsi { margin: 0 100px 100px 0;}
+.indi-cci { margin: 100px 0px 0px 50px;}
+.indi-macd, .indi-stoch, .indi-cci { width: 177px; }
+.indi-stoch { margin: 100px 55px 0px 18px; }
+.indi-macd {  margin: 100px 72px 0px 47px; }
+.indi-num { margin: 0 103px 0 0; }
+.indi-macd a, .indi-stoch a, .indi-cci a { width: 157px; }
+.indi-macd, .indi-stoch, .indi-cci { width: 157px; }
+.indi-trend, .indi-rsi, .indi-williams {  width: 150px; }
+.indi-trend a, .indi-rsi a, .indi-williams a {  width: 150px; }
+.indi-num:nth-child(1) { margin: 0 129px 0 0; }
+.indi-num:nth-child(2) { margin: 0 47px 0 0; }
+.indi-num:nth-child(3) { margin: 0 133px 0 0; }
+.indi-num:nth-child(4) { margin: 0 62px 0 0; }
+.indi-num:nth-child(5) { margin: 0 140px 0 0; }
+.indi-williams { margin: 0 0 100px 23px; }
+.indi-desc { width: 334px; left: -38px;    padding: 35px 20px 30px 28px;}
+
+
+.inner-bnr{padding: 30px 0;}
+.inner-content{ padding: 45px 0 0;}
+/*Settings-page*/
+.container {width: 720px;}
+.inner-bnr h1{font-size: 50px;line-height: normal;}
+.set-lft {width: 100%;}
+.set-rt {width: 100%;padding: 0 0px 0 0px;}
+.set-cnt h3{margin-bottom: 10px;}
+.inner-content{padding: 45px 0 20px;}
+.set-cnt{padding: 30px 20px;}
+
+/*Blog-page*/
+.blog-in-img img, .sblog-img img {width: 200px; height: auto;}
+.blog_main{padding: 30px 0;}
+.post-cnt{width: 70%; padding: 20px 20px 50px;}
+.blog-meta{ padding:10px 10px 15px;}
+.post-cnt h3 a, .sing-cnt h2{font-size: 24px;line-height: normal;}
+/*Contact-page*/
+.inner-content p br {display: none;}
+.inner-content .c-frm {margin-top: 20px;}
+.inner-content .c-frm .map{ text-align:center;margin-bottom: 20px;}
+.inner-content .c-frm img{ float:none;}
+.inner-content .c-frm .map:before{left: 315px;top: 229px;}
+.frm{padding: 30px 30px;}
+.contact-frm {float: none; margin:0 auto;}
+/*Faq-page*/
+.etabs li{margin-right: 5px;margin-bottom: 5px;}
+.etabs a{padding: 5px 10px;}
+.etabs li.active a:before{ display:none;}
+.faq-ques ul.ques-tag > li{width: 100%;margin-bottom: 10px;}
+.faq-content{padding: 35px 0 0px;}
+.qus-cnt{padding: 30px 20px 0 20px;}
+/*Affiliates-page*/
+.affli-tabs {width: 100%;}
+.affli-tabs div.tabcontents{padding: 30px 25px;}
+.affli-tabs div.tabcontents:before{bottom: -9px;background-size: 96% auto;}
+
+.bxslider .item {  width: 230px !important; float: left !important;}
+
+}
+@media screen and (max-width:767px) {
+.logo {float: none;text-align: center;}
+.hdrcont{padding: 26px 0 0;}
+.hdrright {float: none;margin: 0 auto;text-align: center;width:80%;padding-top: 20px;}
+.hdrlng{margin: 0 0 0 10px;}
+.menu-top-menu-container li{margin: 0 5px;}
+.menu-top-menu-container {float: left;}
+
+.bnrfmico { width: 300px; margin: 0 auto; float: none; }
+.bnrform { width: 100%; }
+.ofaform { width: 555px; float: none; margin: 0 auto; }
+.bnrform h4 { font-size: 50px; }
+.bnrform h6 { font-size: 18px; }
+.formttls:after { width: 67px; }
+
+.homebnrcnt {  padding: 60px 0 30px; }
+.tbuleft{ width: 100% }
+.tburight { width: 260px; clear:both;margin:0 auto; float:none;} 
+.tbuleft h1 { font-size: 30px;line-height: 35px; }
+.tbuleft p { padding:0; }
+.tbuleft h1::first-letter { font-size: 40px; }
+.tbu_section { padding: 32px 0 45px 0; }
+.bat_txt { font-size: 43px;line-height: 45px;}
+.simplysteps { padding: 32px 0 45px 0; }
+.simplysteps h2 { font-size: 36px; margin: 0 0 35px 0; }
+.simplysteps h2::first-letter { font-size: 43px; }
+.smplstep { width: 50%; }
+.servitem { width: 50%; height: 145px; padding: 20px 15px 20px 15px;}
+.servitem .servimg { margin: 0px 15px 0px 0px;}
+.servitem .servcnt { width: 65%;}
+.servitem:nth-child(2) { padding: 15px 12px 14px 12px; }
+.servitem:nth-child(3n) { padding: 10px 15px 10px 12px;border-right: 1px solid #e5e2e1; }
+.servitem:nth-child(4) { padding: 11px 13px 11px 13px; }
+.servitem .servcnt h3 { font-size: 20px; }
+.servitem:nth-child(6) .servcnt, .servitem:nth-child(5) .servcnt { width: 65%; }
+.servitem:nth-child(5) { padding: 11px 10px 11px 10px; }
+.servitem:nth-child(6) { padding: 10px 10px 10px 10px; border-top: 1px solid #e5e2e1; border-right: 1px solid #e5e2e1;}
+.broker_sec #sync2 .item { margin-right:25px; }
+.broker_sec .owl-controls .owl-buttons .owl-prev { left: 80%; top: -150px; right: 0; }
+.broker_sec .owl-controls .owl-buttons .owl-next { right: 40px; margin: 0; top: -150px; }
+.outcom2 { float: none; margin: 0 auto; }
+.trade-sec h2 { font-size: 34px; }
+.trade-sec h4 { font-size: 16px;  line-height: 22px;}
+.tradeitem { float:none; margin:0 auto; }
+.trade-sec { padding: 20px 0; }
+.tr-indicator-sec { padding: 25px 0 20px 0; }
+.tr-indicator-sec h2 { font-size:38px; }
+.tr-indicator-sec h4 { font-size: 17px; line-height: 26px;  margin: 0 0 10px 0;  padding: 0 20px;}
+.indi-desc h4 strong { line-height: 22px; }
+.indi-desc { padding: 35px 19px 30px 22px; }
+.tr-indicator-sec p { padding: 0 20px; }
+.serv_blocks hr { width:100%; }
+.serv_blocks hr:last-child { width:90%; }
+.broker_sec h2::first-letter { font-size: 50px; }
+.broker_sec { padding: 24px 0;}
+.txt-box ul li.txt-cnt h3 { font-size: 14px; line-height: 16px;}
+.txt-box ul li.txt-cnt p { font-size: 17px; }
+.txt-btm p { padding: 0 25px; font-size:14px; }
+.prev-outcomes h2 { font-size: 38px;     margin: 0 0 20px 0;}
+.prev-outcomes { padding: 34px 0; }
+.indi-trend { margin: 0 20px 100px 66px; top: 190px; }
+.indi-trend h5, .indi-rsi h5, .indi-williams h5 { top: 112px; }
+.indi-trend h6, .indi-rsi h6, .indi-williams h6 { top: 160px; }
+.indi-rsi { margin: 0 46px 100px 0;     top: 208px;}
+.indi-cci { margin: 100px 0px 0px 50px;}
+.indi-macd, .indi-stoch, .indi-cci { width: 177px; }
+.indi-stoch { margin: 100px 18px 0px 18px; top: -23px; left: -11px; }
+.indi-macd {  margin: 78px 30px 0px 60px; }
+.indi-num:nth-child(1) { left: 0px; margin: 0 204px 0 0; }
+.indi-macd h5, .indi-stoch h5, .indi-cci h5 { top: -73px; }
+.indi-macd h6, .indi-stoch h6, .indi-cci h6 { top: -27px; }
+.indi-trend, .indi-rsi, .indi-williams { width: 175px; }
+.indi-trend a, .indi-rsi a, .indi-williams a { width: 175px; }
+.indi-macd a, .indi-stoch a, .indi-cci a { width: 180px; }
+
+.indi-num:nth-child(2) { margin: 0 65px 0 50px; left: -33px;}
+.indi-num:nth-child(3) { margin: 0 26px 0 20px; left: -188px;} 
+.indi-num:nth-child(4) { margin: 0 37px 0 34px; right: -412px;
+    top: -32px;}
+.indi-num:nth-child(5) { margin: 0 114px 0 77px; }
+.indi-num.num-six {right: -107px; }
+.indi-line { background:none; }
+.serv_blocks { padding: 25px 0 20px;}
+.broker_sec h2 { font-size: 42px;}
+.inner-bnr{padding: 30px 0;}
+.inner-content{ padding: 45px 0 0;}
+.footer-sec{padding:20px 0 30px 0;}
+/*Settings-page*/
+.container {width: 100%; float:left; padding:0 15px;}
+.inner-bnr h1{font-size:42px;line-height: normal;}
+.set-lft {width: 100%;}
+.set-rt {width: 100%;padding: 0 0px 0 0px;}
+.set-cnt h3{margin-bottom: 10px;}
+.inner-content{padding: 45px 0 20px;}
+.set-cnt{padding: 30px 20px;}
+.footer-sec ul li{padding: 0px 10px;}
+.descimler{margin: 30px 0 0;}
+/*Blog-page*/
+.blog-in-img img, .sblog-img img {width: 200px; height: auto;}
+.blog_main{padding: 30px 0 0;}
+.post-cnt{width: 100%;padding: 20px 20px 50px;margin-top: 10px;}
+.blog-in-img {float: none;text-align: center;}
+.blog-meta{padding: 10px 50px 10px;}
+.sing-cnt p br {display: none;}
+/*Contact-page*/
+.inner-content p br {display: none;}
+.inner-content .c-frm {margin-top: 20px;}
+.inner-content .c-frm .map{ text-align:center;margin-bottom: 20px;}
+.inner-content .c-frm img{ float:none;}
+.inner-content .c-frm .map:before{left: 315px;top: 229px;}
+.frm{padding: 30px 30px;}
+.contact-frm {float: none; margin:0 auto;}
+.inner-content h2::first-letter{font-size:40px;}
+.inner-content h1 {font-size:38px;line-height:40px;}
+.inner-content h2{font-size:34px;line-height:38px;}
+.inner-content h3 {font-size:30px;line-height:34px;}
+.inner-content h4 {font-size:26px;	line-height:28px;}
+.inner-content h5 {font-size:24px;line-height:26px;}
+.inner-content h6{font-size:22px;line-height:24px;}
+/*Faq-page*/
+.etabs li{margin-right: 5px;margin-bottom: 5px;}
+.etabs a{padding: 5px 10px;}
+.etabs li.active a:before{ display:none;}
+.faq-ques ul.ques-tag > li{width: 100%;margin-bottom: 10px;}
+.faq-content{padding: 35px 0 0px;}
+.qus-cnt{padding: 30px 20px 0 20px;}
+/*Affiliates-page*/
+.affli-tabs {width: 100%;}
+.affli-tabs div.tabcontents{padding: 30px 25px;}
+.affli-tabs div.tabcontents:before{bottom: -9px;background-size: 96% auto;}
+.bxslider .item {  width: 230px !important; float: left !important;}
+
+}
+@media (max-width:1023px) {
+.indi-trend, .indi-rsi, .indi-williams, .indi-macd, .indi-stoch, .indi-cci { position: relative; margin:0; width:100%; background:none; top:0; left:auto; }
+.indi-trend h5, .indi-rsi h5, .indi-williams h5, .indi-macd h5, .indi-stoch h5, .indi-cci h5 { float:none; top:0; width:100%; position:relative; display:inline-block; text-align:center; line-height:normal; margin-top:15px; }
+.indi-trend h6, .indi-rsi h6, .indi-williams h6, .indi-macd h6, .indi-stoch h6, .indi-cci h6 { float:none; top:0; width:100%; position:relative; display:inline-block; text-align:center; }
+.indi-trend a, .indi-rsi a, .indi-williams a, .indi-macd a, .indi-stoch a, .indi-cci a { background-color:#fff; float:none; display:inline-block; }
+.indi-trend p, .indi-rsi p, .indi-williams p, .indi-macd p, .indi-stoch p, .indi-cci p { margin:0; }
+.indi-desc { position:relative; display:block; left:0; top:0; float:right; width:100%; margin-top:20px; margin-bottom: 20px;}
+.indi-desc:before, .indi-trend:after, .indi-rsi:after, .indi-williams:after, .indi-line, .indi-macd:after, .indi-stoch:after, .indi-cci:after { display:none; }
+.indi-top { float:right; width:49%; }
+.indi-bottom { float:left; width:49%; }
+.indi-desc { border-radius:0px; padding:10px; }
+.indi-trend p, .indi-rsi p, .indi-williams p, .indi-macd p, .indi-stoch p, .indi-cci p { padding:0; }
+.tr-indicator-sec h4 { padding:0; }
+.indi-macd, indi-stoch, .indi-cci, .indi-trend, .indi-rsi, .indi-williams { margin:0; }
+}
+@media screen and (max-width:667px) {
+.hdrright{width: 90%;}
+/*Contact-page*/
+.inner-content .c-frm .map:before {left: 265px;}
+}
+@media screen and (max-width:640px) {
+.hdrright {width:100%;}
+.post-cnt h3 a, .sing-cnt h2{font-size: 26px; line-height:normal;}
+.blog-meta {padding: 10px 10px 10px;font-size: 16px;}
+.blog-meta .date {width: auto;padding-left: 30px;}
+.inner-content .c-frm .map:before { left: 252px;}
+/*Affiliates-page*/
+.affli-tabs div.tabcontents:before {bottom: -8px;}
+
+.indi-top { float:right; width:100%; }
+.indi-bottom { float:left; width:100%; }
+}
+@media screen and (max-width:568px) {
+.menu-top-menu-container .opacc a{padding: 12px 18px;}
+.menu-top-menu-container a{padding: 12px 16px;}
+/*Settings-page*/
+.inner-bnr h1 {font-size: 40px;}
+.inner-bnr {padding: 30px 0;}
+.descimler .lt-cp, .descimler .rt-cp {float: none;}
+.descimler h6{margin: 0 0 10px;}
+.contact-frm{ width:100%;}
+.inner-content .c-frm .map:before {left: 215px;top: 222px;}
+
+}
+@media screen and (max-width:533px) {
+	.ofaform { width:100%; }
+	.tbuleft h1 { font-size: 21px; line-height: 28px; margin: 0 0 7px 0;}
+	.tbuleft h3, .tbuleft h4 { font-size: 16px; }
+	.bat_txt { font-size: 34px; }
+	.servitem { width: 50%; height: 200px;  padding: 20px 10px 20px 10px; }
+	.servitem .servimg { float: none; margin: 0 auto !important; display: block; }
+	.servitem .servcnt { width: 100%; text-align: center; }
+	.serv_blocks { padding: 34px 0 60px; }
+	.broker_sec h2 { font-size: 34px; }
+	.broker_sec h4 { font-size: 20px; line-height: 18px; }
+	.prev-outcomes h2 { font-size: 33px; .txt-box {padding: 30px 0 20px; }
+	.trade-sec h2 { font-size: 30px; margin: 0 0 20px 0;} 
+	.trade-sec h2::first-letter { font-size: 40px; }
+	.tr-indicator-sec h2::first-letter { font-size: 40px; }
+	.tr-indicator-sec h2 {  font-size: 33px; }
+	
+	
+	
+	
+.hdrlng {margin: 0 0 0 10px;}
+.inner-content .c-frm .map:before {left: 198px;top: 196px;}
+.affli-tabs div.tabcontents:before {bottom: -6px;}
+
+
+}
+@media screen and (max-width:480px) {
+.hdrlng {margin: 0 auto;text-align: center;float: none;}
+.menu-top-menu-container {float: none;}
+.menu-top-menu-container ul {float: none;text-align: center;}
+.menu-top-menu-container li {margin: 8px 0 0px; width: 80%;}
+.menu-top-menu-container a{width:100%;}
+.bnrform h4 { font-size: 40px; }
+.bnrform h6 { font-size: 16px; }
+.formttls:after { width: 60px; left: 68px;}
+.tbuleft p { font-size: 15px; line-height: 26px;  margin: 0 0 14px 0; }
+.tbuleft p img {  float: none; margin: 0 auto !important; text-align: center;  display: block;}
+.txt-box ul li.txt-cnt { margin-bottom: 15px; }
+.simplysteps h2 { font-size: 30px; margin: 0 0 15px 0;}
+.smplstep h3 { font-size: 20px; }
+.smplstep { padding: 0 13px; }
+.txt-box ul li.txt-cnt { width: 50%; }
+.txt-box ul li.txt-cnt:last-child { margin: 0 auto; float: none; }
+.txt-box { background-size: contain; }
+.broker_sec  #sync2 .owl-item { margin:0; }
+.trade-sec h2::first-letter { font-size: 40px; }
+.trade-sec h2 { font-size: 28px; }
+.prev-outcomes h2 {font-size: 28px; }
+.prev-outcomes h2::first-letter { font-size: 40px; }
+.outcomes { margin-top: 10px; }
+.tr-indicator-sec h2 { font-size: 28px; }
+.tr-indicator-sec h2::first-letter  { font-size: 35px; }
+.tr-indicator-sec p { padding: 0 0px; font-size: 15px; }
+.bnrfmico img { margin-top:0; }
+
+
+/*Settings-page*/
+.inner-bnr h1 {font-size: 36px;}
+.set-cnt .indicators  li{background-position:center top 5px !important;padding-top:60px;padding-left:0 !important;}
+/*Blog-page*/
+.post-cnt h3 a, .sing-cnt h2{font-size: 20px;}
+.blog-meta {padding: 5px 10px 0px;margin-bottom: 10px;font-size: 14px}
+.blog-meta .author a{float: left;}
+.blog-meta .author a:before{top: 4px;}
+.inner-content h2::first-letter{}
+.inner-content h1{font-size:32px;line-height:36px;}
+.inner-content h2{font-size:30px;line-height:34px;}
+.inner-content h2::first-letter{font-size:48px;}
+.inner-content h3{font-size:26px;line-height:32px;}
+.inner-content h4{font-size:24px;line-height:28px;}
+.inner-content h5{font-size:22px;line-height:24px;}
+.inner-content h6{font-size:20px;line-height:22px;}
+.inner-content h2{margin-bottom: 10px;}
+
+.inner-content .c-frm .map:before {left: 170px;top: 155px;}
+.frm:before{display:none;}
+/*Faq-page*/
+.faq-ques li h5 {font-size: 18px;}
+.qus-cnt {padding: 15px 10px 0 10px;}
+
+.inner-content .s_form h4, .l_form h4 {font-size: 28px; line-height: 38px;}
+.inner-content .s_form input, .inner-content .l_form input, .inner-content .l_form select{padding: 15px 2px 15px 15px;}
+.inner-content .s_form .f_button, .inner-content .l_form .f_button{padding: 15px 50px;margin-bottom: 10px !Important;}
+/*Affiliates-page*/
+.affli-tabs ul.tabs li a{font-size: 16px;}
+.affli-tabs div.tabcontents {padding: 15px 5px;}
+.affli-tabs .aff-signup .s_form table tr td input, .affli-tabs .aff-signup .s_form table tr td input{background-position: top 10px right 12px !important; padding: 15px 30px 15px 15px !important;}
+.affli-tabs .aff-login .l_button, .affli-tabs .aff-signup .s_form table tr:nth-child(9) input{font-size: 18px;}
+.affli-tabs div.tabcontents:before{ background:none;}
+}
+@media screen and (max-width:414px) {
+.smplstep { width: 100%; }	
+.bat_txt { font-size: 28px; }
+.simplysteps h2::first-letter {  font-size: 30px; }
+.simplysteps h2 { font-size: 26px; }
+.servitem { width:100%; border-right: 0;}
+.servitem:nth-child(6) .servcnt, .servitem:nth-child(5) .servcnt,  { width: 100%; }
+.servitem:nth-child(3n), .servitem:nth-child(6) { border-right:0; }
+.broker_sec .owl-controls .owl-buttons .owl-prev {     left: 70%; }
+.txt-box { padding: 35px 0 25px; }
+.trade-sec h4 { font-size: 14px; }
+.tr-indicator-sec h4 { font-size: 15px; margin: 0 0 5px 0;}
+.broker_sec h2 {  font-size: 30px; }
+.broker_sec h2::first-letter { font-size: 40px; }
+.serv_blocks { padding: 20px 0 10px; }
+.servitem:nth-child(6) .servcnt, .servitem:nth-child(5) .servcnt { width:100%; }
+.set-cnt {padding: 30px 10px;}
+.blog-meta .author a:before{top: 4px; left: -2px;}
+.blog-meta .author{width: 100%;}
+.blog-meta .author a{padding-left: 30px;}
+.post-cnt{padding: 20px 10px 50px;}
+.inner-content .c-frm .map:before{display:none;}
+.bxslider .item { width: 300px !important; }
+
+
+}
+@media screen and (max-width:375px) {
+.bnrform h4 { font-size: 32px; }
+.bnrform h6 {font-size: 14px; }	
+.formttls:after { width: 48px; left: 25px; }
+.bat_txt { font-size: 24px; }
+.trade-sec h2 { font-size: 20px; }
+.trade-sec h4 { font-size: 13px; margin: 0 0 15px 0;}
+.tradeitem { width:100%; }
+
+
+	
+.inner-bnr h1 {font-size:28px;}
+.frm {padding: 15px 10px;}
+.set-rt .assets {width: 100%;}
+}
+@media screen and (max-width:360px) {
+.tbuleft h1::first-letter { font-size: 28px; }
+.tbuleft h1 { font-size: 20px; }
+.broker_sec h2 { font-size: 26px; }
+.tr-indicator-sec h4 { font-size: 14px; }
+.simplysteps .joinbtn a { padding: 20px 37px 20px 37px; }
+.smpl_steps {  margin-bottom: 15px; }
+.broker_sec .owl-controls .owl-buttons .owl-prev { left: 60%; }
+.prev-outcomes h2 { font-size: 24px; }
+.trade-sec h2 {line-height: 28px; }
+.trade-sec h4 { font-size: 16px; }
+.tradeitem h3 a { font-size: 24px; }
+.trade-sec .tradeitem p { padding: 0px 10px; }
+.tradeitem:last-child p {  padding: 0px 10px; }
+.tr-indicator-sec h2 { font-size: 26px; }
+.bnrfmico { width:100%; }
+	
+.set-cnt h3 {font-size: 20px;line-height: 24px;}
+.frm input[type="submit"]{width: 250px;}
+}
+@media screen and (max-width:320px) {
+.bat_txt {  font-size: 20px; }
+.tbuleft h1 { font-size: 18px; }
+.tbuleft h2 { font-size: 24px; }
+.txt-btm p { padding: 0 15px; }
+	
+.container{padding: 0 10px;}
+.etabs a{line-height: 20px;}
+}
