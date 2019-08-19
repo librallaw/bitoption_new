@@ -1,1184 +1,185 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Crypto Template & Dashboard</title>
-    <meta content="" name="description" />
-    <meta content="" name="author" />
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
-    <!-- For iPhone -->
-    <link rel="apple-touch-icon-precomposed" href="/assets/images/apple-touch-icon-57-precomposed.png">
-    <!-- For iPhone 4 Retina display -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/apple-touch-icon-114-precomposed.png">
-    <!-- For iPad -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/apple-touch-icon-72-precomposed.png">
-    <!-- For iPad Retina display -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/apple-touch-icon-144-precomposed.png">
-
-    <!-- CORE CSS FRAMEWORK - START -->
-    <link href="/assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/plugins/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/fonts/webfont/cryptocoins.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/css/animate.min.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css" />
-    <!-- CORE CSS FRAMEWORK - END -->
-
-    <!-- HEADER SCRIPTS INCLUDED ON THIS PAGE - START -->
-
-    <link href="/assets/plugins/jvectormap/jquery-jvectormap-2.0.1.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="/assets/plugins/morris-chart/css/morris.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="/assets/plugins/calendar/fullcalendar.css" rel="stylesheet" type="text/css" media="screen"/>
-    <link href="/assets/plugins/icheck/skins/minimal/minimal.css" rel="stylesheet" type="text/css" media="screen"/>
-    <link href="/assets/plugins/swiper/swiper.css" rel="stylesheet" type="text/css">
-
-    <!-- HEADER SCRIPTS INCLUDED ON THIS PAGE - END -->
-
-    <!-- CORE CSS TEMPLATE - START -->
-    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/css/responsive.css" rel="stylesheet" type="text/css" />
-    <!-- CORE CSS TEMPLATE - END -->
-
-</head>
-<!-- END HEAD -->
-
-<!-- BEGIN BODY -->
-
-<body class=" ">
-    <!-- START TOPBAR -->
-    <div class='page-topbar gradient-blue1'>
-        <div class='logo-area crypto'>
-
-        </div>
-        <div class='quick-area'>
-            <div class='pull-left'>
-                <ul class="info-menu left-links list-inline list-unstyled">
-                    <li class="sidebar-toggle-wrap">
-                        <a href="#" data-toggle="sidebar" class="sidebar_toggle">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </li>
-                    <li class="topnav-item item1">
-                        <a href="#" class="new-link w-text">Schedule
-                          <span class="badge badge-primary ml-5">New</span>
-                        </a>
-                    </li>
-                    <li class="topnav-item active item2">
-                        <a href="#" class="nav-link w-text">
-                          <i class="fa fa-area-chart mr-10"></i>Reports
-                        </a>
-                    </li>
-                    <li class="topnav-item item3">
-                        <a href="#" class="nav-link w-text">
-                          <i class="fa fa-sitemap mr-10"></i>Trading
-                        </a>
-                    </li>
-                
-                    
-                    <li class="hidden-sm hidden-xs searchform">
-                        <form action="#" method="post">
-                            <div class="input-group">
-                                <span class="input-group-addon">
-                                <i class="fa fa-search"></i>
-                            </span>
-                                <input type="text" class="form-control animated fadeIn" placeholder="Search & Enter">
-                            </div>
-                            <input type='submit' value="">
-                        </form>
-                    </li>
-                </ul>
-            </div>
-            <div class='pull-right'>
-                <ul class="info-menu right-links list-inline list-unstyled">
-                    <li class="notify-toggle-wrapper spec">
-                        <a href="#" data-toggle="dropdown" class="toggle">
-                            <i class="fa fa-bell"></i>
-                            <span class="badge badge-accent">3</span>
-                        </a>
-                        <ul class="dropdown-menu notifications animated fadeIn">
-                            <li class="total">
-                                <span class="small">
-                                You have <strong>3</strong> new notifications.
-                                <a href="javascript:;" class="pull-right">Mark all as Read</a>
-                            </span>
-                            </li>
-                            <li class="list">
-
-                                <ul class="dropdown-menu-list list-unstyled ps-scrollbar">
-                                    <li class="unread available">
-                                        <!-- available: success, warning, info, error -->
-                                        <a href="javascript:;">
-                                            <div class="notice-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Successful transaction of 0.01 BTC</strong>
-                                                    <span class="time small">15 mins ago</span>
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="unread away">
-                                        <!-- available: success, warning, info, error -->
-                                        <a href="javascript:;">
-                                            <div class="notice-icon">
-                                                <i class="fa fa-clock-o"></i>
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>4 of Pending Transactions!</strong>
-                                                    <span class="time small">45 mins ago</span>
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" busy">
-                                        <!-- available: success, warning, info, error -->
-                                        <a href="javascript:;">
-                                            <div class="notice-icon">
-                                                <i class="fa fa-times"></i>
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Cancelled Order of 200 ICO</strong>
-                                                    <span class="time small">1 hour ago</span>
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                   
-                                    <li class=" available">
-                                        <!-- available: success, warning, info, error -->
-                                        <a href="javascript:;">
-                                            <div class="notice-icon">
-                                                <i class="fa fa-check"></i>
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Great Speed Notify of 1.34 LTC</strong>
-                                                    <span class="time small">14th Mar</span>
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-
-                                </ul>
-
-                            </li>
-
-                            <li class="external">
-                                <a href="javascript:;">
-                                    <span>Read All Notifications</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="message-toggle-wrapper spec">
-                        <a href="#" data-toggle="dropdown" class="toggle mr-15">
-                            <i class="fa fa-envelope"></i>
-                            <span class="badge badge-accent">7</span>
-                        </a>
-                        <ul class="dropdown-menu messages animated fadeIn">
-
-                            <li class="list">
-
-                                <ul class="dropdown-menu-list list-unstyled ps-scrollbar">
-                                    <li class="unread status-available">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="../data/profile/avatar-1.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Clarine Vassar</strong>
-                                                    <span class="time small">- 15 mins ago</span>
-                                                <span class="profile-status available pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Lorem ipsum dolor sit elit fugiat molest.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" status-away">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="../data/profile/avatar-2.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Brooks Latshaw</strong>
-                                                    <span class="time small">- 45 mins ago</span>
-                                                <span class="profile-status away pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Lorem ipsum dolor sit elit fugiat molest.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" status-busy">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="../data/profile/avatar-3.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Clementina Brodeur</strong>
-                                                    <span class="time small">- 1 hour ago</span>
-                                                <span class="profile-status busy pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Lorem ipsum dolor sit elit fugiat molest.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" status-offline">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="../data/profile/avatar-4.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Carri Busey</strong>
-                                                    <span class="time small">- 5 hours ago</span>
-                                                <span class="profile-status offline pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Lorem ipsum dolor sit elit fugiat molest.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" status-offline">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="../data/profile/avatar-5.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Melissa Dock</strong>
-                                                    <span class="time small">- Yesterday</span>
-                                                <span class="profile-status offline pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Lorem ipsum dolor sit elit fugiat molest.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" status-available">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="../data/profile/avatar-1.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Verdell Rea</strong>
-                                                    <span class="time small">- 14th Mar</span>
-                                                <span class="profile-status available pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Lorem ipsum dolor sit elit fugiat molest.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" status-busy">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="../data/profile/avatar-2.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Linette Lheureux</strong>
-                                                    <span class="time small">- 16th Mar</span>
-                                                <span class="profile-status busy pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Lorem ipsum dolor sit elit fugiat molest.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class=" status-away">
-                                        <a href="javascript:;">
-                                            <div class="user-img">
-                                                <img src="../data/profile/avatar-3.png" alt="user-image" class="img-circle img-inline">
-                                            </div>
-                                            <div>
-                                                <span class="name">
-                                                    <strong>Araceli Boatright</strong>
-                                                    <span class="time small">- 16th Mar</span>
-                                                <span class="profile-status away pull-right"></span>
-                                                </span>
-                                                <span class="desc small">
-                                                    Lorem ipsum dolor sit elit fugiat molest.
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </li>
-
-                                </ul>
-
-                            </li>
-
-                            <li class="external">
-                                <a href="javascript:;">
-                                    <span>Read All Messages</span>
-                                </a>
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li class="profile">
-                        <a href="#" data-toggle="dropdown" class="toggle">
-                            <img src="../data/profile/profile.jpg" alt="user-image" class="img-circle img-inline">
-                            <span>Arnold Ramsy <i class="fa fa-angle-down"></i></span>
-                        </a>
-                        <ul class="dropdown-menu profile animated fadeIn">
-                            <li>
-                                <a href="crypto-account-setting.html">
-                                    <i class="fa fa-wrench"></i> Settings
-                                </a>
-                            </li>
-                            <li>
-                                <a href="crypto-profile.html">
-                                    <i class="fa fa-user"></i> Profile
-                                </a>
-                            </li>
-                            <li>
-                                <a href="crypto-support.html">
-                                    <i class="fa fa-info"></i> Help
-                                </a>
-                            </li>
-                            <li class="last">
-                                <a href="crypto-login.html">
-                                    <i class="fa fa-lock"></i> Logout
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-    <!-- END TOPBAR -->
-    <!-- START CONTAINER -->
-    <div class="page-container row-fluid container-fluid">
-
-        <!-- SIDEBAR - START -->
-
-        <div class="page-sidebar fixedscroll">
-
-            <!-- MAIN MENU - START -->
-            <div class="page-sidebar-wrapper crypto" id="main-menu-wrapper">
-
-                <ul class='wraplist'>
-                    <li class='menusection'>Main</li>
-                    <li class="">
-                        <a href="index-crypto-dashboard.html">
-                            <i class="img relative crypto-ic ">
-                                <img src="../data/crypto-dash/icons/1.png" alt="" class="ic1 width-20">
-                            </i>
-                            <span class="title">Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="crypto-wallet.html">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/2.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Crypto Wallet</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="crypto-buy-sell.html">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/6.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Buy & Sell</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="crypto-ico-admin.html">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/4.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">ICO Admin</span>
-                            <span class="label label-accent">HOT</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="crypto-affiliate.html">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/8.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Affiliate Program</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="crypto-profile.html">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/10.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Trader Profile</span>
-                        </a>
-                    </li>
-                    
-                    <li class="">
-                        <a href="crypto-faq.html">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/12.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Support</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="javascript:;">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/11.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Settings</span>
-                            <span class="arrow "></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a class="" href="crypto-personal-setting.html">Personal Settings</a>
-                            </li>
-                            <li>
-                                <a class="" href="crypto-account-setting.html">Account Settings</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a href="javascript:;">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/9.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Access Pages</span>
-                            <span class="arrow "></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a class="" href="crypto-login.html">Login</a>
-                            </li>
-                            <li>
-                                <a class="" href="crypto-register.html">Registration</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-404.html">404</a>
-                            </li>
-                        </ul>
-                    </li>
-                    
-                    <li class=""> 
-                        <a href="javascript:;">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/7.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Mailbox</span>
-                        <span class="arrow"></span>
-                        </a>
-                        <ul class="sub-menu" style="display: none;">
-                            <li>
-                            <a class="" href="crypto-mail-inbox.html">Inbox</a>
-                            </li>
-                            <li>
-                            <a class="" href="crypto-mail-compose.html">Compose</a>
-                            </li>
-                            <li>
-                            <a class="" href="crypto-mail-view.html">View</a>
-                            </li>
-                            <li>
-                            <a class="" href="crypto-mail-important.html">Important Mail</a>
-                            </li>
-                            <li>
-                            <a class="" href="crypto-mail-trash.html">Mail Trash</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class='menusection'>Data Visualization</li>
-                    <li class="">
-                        <a href="javascript:;">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/16.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Echarts</span>
-                            <span class="arrow "></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a class="" href="charts-echart-line.html">Line & Area Charts</a>
-                            </li>
-                            <li>
-                                <a class="" href="charts-echart-bar.html">Bar & Stacked Charts</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a href="javascript:;">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/17.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Morris Charts</span>
-                            <span class="arrow "></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a class="" href="charts-morris-line.html">Line Charts</a>
-                            </li>
-                            <li>
-                                <a class="" href="charts-morris-bar.html">Bar & Stacked Charts</a>
-                            </li>
-                            <li>
-                                <a class="" href="charts-morris-area.html">Area Charts</a>
-                            </li>
-                            <li>
-                                <a class="" href="charts-morris-pie.html">Pie Charts</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a href="javascript:;">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/18.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Charts JS</span>
-                            <span class="arrow"></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a class="" href="charts-chartjs-line.html">Line Charts</a>
-                            </li>
-                            <li>
-                                <a class="" href="charts-chartjs-bar.html">Bar Charts</a>
-                            </li>
-                            <li>
-                                <a class="" href="charts-chartjs-pie-donut.html">Pie & Donut</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a href="javascript:;">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/19.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Flot Charts</span>
-                            <span class="arrow "></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a class="" href="charts-flot-area.html">Area Charts</a>
-                            </li>
-                            <li>
-                                <a class="" href="charts-flot-line.html">Line Charts</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="">
-                        <a href="javascript:;">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/20.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Sparkline Charts</span>
-                            <span class="arrow "></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a class="" href="charts-sparkline-line.html">Line & Area Charts</a>
-                            </li>
-                            <li>
-                                <a class="" href="charts-sparkline-bar.html">Bar Charts</a>
-                            </li>
-                            <li>
-                                <a class="" href="charts-sparkline-composite.html">Composite Charts</a>
-                            </li>
-                        </ul>
-                    </li>
-                    
-                    <li class='menusection'>User Interface</li>
-                    <li class="">
-                        <a href="javascript:;"> 
-                        <i class="img">
-                            <img src="../data/crypto-dash/icons/13.png" alt="" class="width-20">
-                        </i>
-                         <span class="title">Ui Elements</span> <span class="arrow "></span> </a>
-                        <ul class="sub-menu">
-                            
-
-                            <li class="">
-                                <a href="javascript:;"><span class="title">Timeline</span> <span class="arrow "></span> </a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a class="" href="ui-timeline-centered.html">Centered timeline</a>
-                                    </li>
-                                    <li>
-                                        <a class="" href="ui-timeline-left.html">Left Aligned timeline</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="">
-                                <a href="javascript:;"><span class="title">Pricing Tables</span> <span class="arrow "></span> </a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a class="" href="ui-pricing-expanded.html">Expanded</a>
-                                    </li>
-                                    <li>
-                                        <a class="" href="ui-pricing-narrow.html">Narrow</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="">
-                                <a href="javascript:;"><span class="title">Icon Sets</span> <span class="arrow "></span> </a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a class="" href="ui-icons.html">Icon Styles</a>
-                                    </li>
-                                    <li>
-                                        <a class="" href="ui-fontawesome.html">Font Awesome</a>
-                                    </li>
-                                    <li>
-                                        <a class="" href="ui-glyphicons.html">Glyph Icons</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="javascript:;"><span class="title">Form Elements</span> <span class="arrow "></span> </a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a class="" href="form-elements.html">Field Elements</a>
-                                    </li>
-                                    <li>
-                                        <a class="" href="form-elements-premade.html">Pre Made Forms</a>
-                                    </li>
-                                    <li>
-                                        <a class="" href="form-elements-icheck.html">Checkbox & Radio</a>
-                                    </li>
-                                    <li>
-                                        <a class="" href="form-elements-grid.html">Form Grid</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="form-wizard.html"> <span class="title">Form Wizard</span> </a>
-                            </li>
-                            <li>
-                                <a href="form-validation.html"> <span class="title">Form Validations</span> </a>
-                            </li>
-                            
-                        </ul>
-                    </li>
-                    
-                    <li class="">
-                        <a href="javascript:;">
-                            <i class="img">
-                            <img src="../data/crypto-dash/icons/14.png" alt="" class="width-20">
-                        </i>
-                            <span class="title">Components</span>
-                            <span class="arrow "></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a class="" href="ui-tabs.html">Tabs</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-accordion.html">Accordions</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-progress.html">Progress Bars</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-buttons.html">Buttons</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-modals.html">Modals</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-alerts.html">Alerts</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-notifications.html">Notifications</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-tooltips.html">Tooltips</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-popovers.html">Popovers</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-navbars.html">Navbars</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-dropdowns.html">Dropdowns</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-breadcrumbs.html">Breadcrumbs</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-pagination.html">Pagination</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-labels-badges.html">Labels & Badges</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="">
-                        <a href="javascript:;">
-                            <i class="img">
-                                <img src="../data/crypto-dash/icons/15.png" alt="" class="width-20">
-                            </i>
-                            <span class="title">Appearance</span>
-                            <span class="arrow "></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a class="" href="ui-typography.html">Typography</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-grids.html">Grids</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-panels.html">Draggable Panels</a>
-                            </li>
-                            <li>
-                                <a class="" href="ui-group-list.html">Group Listing</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                </ul>
-
-            </div>
-            <!-- MAIN MENU - END -->
-
-        </div>
-        <!--  SIDEBAR - END -->
-
-        <!-- START CONTENT -->
-        <section id="main-content" class=" ">
-            <div class="wrapper main-wrapper row" style=''>
-
-                <div class='col-xs-12'>
-                    <div class="page-title">
-
-                        <div class="pull-left">
-                            <!-- PAGE HEADING TAG - START -->
-                            <h1 class="title">Crypto Dashboard</h1>
-                            <!-- PAGE HEADING TAG - END -->
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <section class="box nobox marginBottom0">
-                        <div class="content-body">
-                            <div class="row">
-                               
-                                <div class="col-lg-3 col-sm-6 col-xs-12">
-                                    <div class="statistics-box">
-                                        <div class="mb-15">
-                                            <i class="pull-left ico-icon icon-md icon-primary">
-                                                <img src="../data/crypto-dash/s1.png" class="ico-icon-o" alt="">
-                                            </i>
-                                            <div class="stats">
-                                                <h3 class="boldy mb-5">$4,456.98</h3>
-                                                <span>Account Balance</span>
-                                            </div>
-                                        </div>
-                                        <span class="crypto1"><canvas width="239" height="60"></canvas></span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-6 col-xs-12">
-                                    <div class="statistics-box">
-                                        <div class="mb-15">
-                                            <i class="pull-left ico-icon icon-md icon-primary">
-                                                <img src="../data/crypto-dash/s2.png" class="ico-icon-o" alt="">
-                                            </i>
-                                            <div class="stats">
-                                                <h3 class="boldy mb-5">$1,627.23</h3>
-                                                <span>Total Income</span>
-                                            </div>
-                                        </div>
-                                        <span class="crypto2"><canvas width="239" height="60"></canvas></span>
-
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-6 col-xs-12">
-                                    <div class="statistics-box">
-                                        <div class="mb-15">
-                                            <i class="pull-left ico-icon icon-md icon-primary">
-                                                <img src="../data/crypto-dash/s3.png" class="ico-icon-o" alt="">
-                                            </i>
-                                            <div class="stats">
-                                                <h3 class="boldy mb-5">232.76%</h3>
-                                                <span>Rate of Return</span>
-                                            </div>
-                                        </div>
-                                        <span class="crypto3"><canvas width="239" height="60"></canvas></span>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-sm-6 col-xs-12">
-                                    <div class="statistics-box">
-                                        <div class="mb-15">
-                                            <i class="pull-left ico-icon icon-md icon-primary">
-                                                <img src="../data/crypto-dash/s4.png" class="ico-icon-o" alt="">
-                                            </i>
-                                            <div class="stats">
-                                                <h3 class="boldy mb-5">1,345</h3>
-                                                <span>Number of Trades</span>
-                                            </div>
-                                        </div>
-                                        <span class="crypto4"><canvas width="239" height="60"></canvas></span>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <!-- End .row -->
-                        </div>
-                    </section>
-                </div>
-
-                <div class="clearfix"></div>
-                <!-- MAIN CONTENT AREA STARTS -->
-
-                <div class='col-xs-12'>
-
-                    <div class="pull-left">
-                        <!-- PAGE HEADING TAG - START -->
-
-                        <!-- PAGE HEADING TAG - END -->
-                    </div>
-
-                </div>
-
-
-                <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-lg-12 col-xs-12">
-
-
-
-                            <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
-                            <coingecko-coin-price-marquee-widget currency="usd" coin-ids="bitcoin,ethereum,eos,ripple,litecoin" locale="en"></coingecko-coin-price-marquee-widget>
-
-                            <!-- TradingView Widget BEGIN -->
-                            <div class="tradingview-widget-container">
-                                <div id="tradingview_19631"></div>
-                                <div class="tradingview-widget-copyright"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-                                <script type="text/javascript">
-                                    new TradingView.widget(
-                                        {
-                                            "width": 1100,
-                                            "height": 468,
-                                            "symbol": "COINBASE:BTCUSD",
-                                            "interval": "D",
-                                            "timezone": "Etc/UTC",
-                                            "theme": "Dark",
-                                            "style": "0",
-                                            "locale": "en",
-                                            "toolbar_bg": "#f1f3f6",
-                                            "enable_publishing": false,
-                                            "allow_symbol_change": true,
-                                            "hotlist": true,
-                                            "container_id": "tradingview_19631"
-                                        }
-                                    );
-                                </script>
-                            </div>
-
-
-
-
-                        </div>
-
-
-                        <div class="clearfix"></div>
-
-                    </div>
-                </div>
-
-                <div class="clearfix"></div>
-
-
-
-                <div class="col-lg-12">
-                    <section class="box">
-
-                        <div class="content-body">
-                            <div class="row">
-                                <div class="col-xs-12">
-
-
-
-
-                                    <!-- TradingView Widget BEGIN -->
-                                    <div class="tradingview-widget-container">
-
-                                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"></a> </div>
-                                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
-                                            {
-                                                "symbols": [
+<!-- saved from url=(0029)https://app.expertoption.com/ -->
+<html language="en" lang="en-GB"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>bitoptionfx</title><meta content="width=1024,user-scalable=no" name="viewport"><link href="https://app.expertoption.com/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link href="https://app.expertoption.com/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"><link href="https://app.expertoption.com/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"><link href="https://app.expertoption.com/favicons/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png"><meta content="#262E43" name="theme-color"><link href="https://app.expertoption.com/manifest.json" rel="manifest"><link href="https://app.expertoption.com/favicons/safari-pinned-tab.svg" rel="mask-icon" color="#5bbad5"><meta content="#ffffff" name="theme-color"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="ExpertOption" name="apple-mobile-web-app-title"><link href="./advolix_default_files/project.css" rel="stylesheet"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><link href="./advolix_default_files/css" rel="stylesheet" type="text/css"><style media="print" class="jx_ui_StyleSheet" __jx__id="___$_2" type="text/css">.zopim { display: none !important }
+        .container{
+            float:none;
+            margin:auto;
+            text-align:center
+        }
+        .container>.overly{
+            width:300px;
+            height:80px;
+            font-size:25px;
+            cursor:pointer
+        }
+        .modalbox {
+            min-width: 100%;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(81, 51, 51, 0.5);
+            z-index: 99999;
+            pointer-events: auto;
+            display:none;
+            overflow-y:auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .modalbox >.dialog {
+            max-width: 100%;
+            position: relative;
+            top: 10px;
+            margin: 5% 10%;
+            padding: 5px 20px 13px 20px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background: #ffffff;
+            box-shadow: 0 0 10px #000000;
+            -moz-box-shadow: 0 0 10px #000000;
+            -webkit-box-shadow: 0 0 10px #000000;
+            display: block;
+            pointer-events: auto;
+        }
+
+        .closebutton {
+            float: right;
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 1;
+            color: #000;
+            text-shadow: 0 1px 0 #fff;
+            filter: alpha(opacity=20);
+            opacity: .6;
+            z-index: 9999;
+            cursor:pointer
+        }
+
+
+    </style></head><body><div class="zopim" __jx__id="___$_11 ___$_11" data-test-id="ChatWidgetButton" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; background: transparent; overflow: hidden; position: fixed; z-index: 16000002; width: 180px; height: 30px; right: 10px; bottom: 0px; display: none;"><iframe frameborder="0" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" src="./advolix_default_files/saved_resource.html" data-test-id="ChatWidgetButton-iframe"></iframe></div><div class="zopim" __jx__id="___$_4 ___$_4" data-test-id="ChatWidgetWindow" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; padding: 0px; border: 0px; background: transparent; overflow: hidden; position: fixed; z-index: 16000001; right: 10px; bottom: 0px; border-top-left-radius: 5px; border-top-right-radius: 5px; display: none; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 3px 2px; width: 290px; height: 400px;"><iframe frameborder="0" style="background-color: transparent; vertical-align: text-bottom; position: relative; width: 100%; height: 100%; min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%; margin: 0px; overflow: hidden; display: block;" src="./advolix_default_files/saved_resource(1).html" data-test-id="ChatWidgetWindow-iframe"></iframe></div><main id="app"><div class="app ready drawer-closed"><div class="app-container"><span></span><div class="notifications-global"></div><span></span><span></span><nav class="dropdown-global" style="top: 0px; left: 0px; width: 0px;"></nav><header class="header"><img src="https://bitoptionfx.com/themes/2017-09/img/logo.png"><div class="header-block left"><div class="header-item language"><div class="select-locale"><div class="dropdown"><div class="current"><span class=""></span></div><div class="list"><div class="col"><div class="item active"><span class="flag-icon flag-icon-en"></span><span class="title">English</span></div><div class="item"><span class="flag-icon flag-icon-zh"></span><span class="title">繁體中文</span></div><div class="item"><span class="flag-icon flag-icon-zh"></span><span class="title">简体中文</span></div><div class="item"><span class="flag-icon flag-icon-th"></span><span class="title">ภาษาไทย</span></div><div class="item"><span class="flag-icon flag-icon-hi"></span><span class="title">हिन्दी</span></div><div class="item"><span class="flag-icon flag-icon-ko"></span><span class="title">한국어</span></div><div class="item"><span class="flag-icon flag-icon-vi"></span><span class="title">Tiếng Việt</span></div><div class="item"><span class="flag-icon flag-icon-ar"></span><span class="title">العربية</span></div></div><div class="col"><div class="item"><span class="flag-icon flag-icon-tr"></span><span class="title">Türkçe</span></div><div class="item"><span class="flag-icon flag-icon-ms"></span><span class="title">Bahasa Malaysia</span></div><div class="item"><span class="flag-icon flag-icon-id"></span><span class="title">Bahasa Indonesia</span></div><div class="item"><span class="flag-icon flag-icon-fil"></span><span class="title">Tagalog</span></div><div class="item"><span class="flag-icon flag-icon-es"></span><span class="title">Español</span></div><div class="item"><span class=""></span><span class="title">Portuguese</span></div><div class="item"><span class="flag-icon flag-icon-ru"></span><span class="">Русский</span></div></div></div></div></div></div><div class="header-item nav"><nav class="header-nav"><a href="https://app.expertoption.com/#" title="Fullscreen" class=""></a><a href="https://app.expertoption.com/#" title="Apps" class=""></a><a href="https://app.expertoption.com/#" title="How to trade" class=""></a><a href="#" title="Sounds" class=""></a><a href="#" title="Chart crosshair" class=""></a><a href="#" title="Live chat" class=""><span>Live chat</span></a></nav></div></div><div class="header-block right"><div class="header-item user"><div class="user-block-header"><a class="username" href="#"><span class="avatar"><i class="dummy"></i></span><span class="name"></span><span class="status-badge" style="border: 1px solid rgb(216, 63, 63); text-align: center; color: rgb(216, 63, 63); box-sizing: border-box; letter-spacing: 0.15ex; background-color: rgba(216, 63, 63, 0.1);">TRADING SESSION</span></a><div class="balance"><span><div class="animating-balance-width" style="width: 63px;"><span class="money  money-medium"><i class="currency">$</i></span></div></span></div><div class="deposit"><a class="btn btn-primary btn-success" href=""><span>Chigozie </span></a></div></div></div></div></header><aside class="aside-left"><nav class="nav-main"><a class="" href="deposits.php"><i></i><span>DEPOSIT</span></a>
+
+
+                    <a class="" href="plan.php"><i></i><span>PLAN</span></a><a href="withdraw.php" class="ico" target="_blank" rel="noopener"><i class="outer-link-icon"><i style="background-image: url(&quot;https://static.expertoption.com/app/nav/icons/eo-finance_2.png&quot;);"></i></i><span>WITHDRAW</span></a><a class="" href="profile.php"><i></i><span>Profile</span></a><a class="outer-link-icon" href="resetpwd.php"><i></i><span>Change Password</span></a><a class="outer-link-icon" href="history.php"><i></i><span>TRADE HISTORY</span></a><a class="" href="?logout"><i></i><span>LOGOUT</span></a></nav>   <a href="https://app.expertoption.com/#" class="config" title="Settings"></a><a class="exit" href="https://app.expertoption.com/#" title="Exit"></a></aside><aside class="aside-right"><span class="toggler hamburger"><span></span></span><div class="navigation"><nav class="nav-main"><span class=""><i></i><span></span></span><span class=""><i></i><span></span></span><span class=""><i></i><span></span></span></nav></div><div class="content"></div></aside><div class="content-container"><div class="page traderoom"><div><div class="charts single"><div class="layout-container"><div class="chart" style="height: 100%; top: 0px; width: 100%; left: 0px;"><span class="separator"></span><span class="scroll-to-end fade"></span><div class="chart-settings"><div class="settings-button long asset-selector"><span class="button-content"><span class="title">Gold</span><span class="divider"> </span><span class="exptime">14:09:00</span></span></div><div class="settings-button charts-selector area"></div><div class="settings-button indicators-selector"></div><div class="settings-button buildings-selector"></div><div class=""></div><div class=""></div></div><div class=""><div class=""></div><div class="settings-button zoom-in fade"></div><div class="settings-button focus"></div></div><div class="chart-container" id="chart-1535807184814">
+
+                                        <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+                                        <coingecko-coin-price-marquee-widget currency="usd" coin-ids="bitcoin,ethereum,eos,ripple,litecoin" locale="en"></coingecko-coin-price-marquee-widget>
+
+                                        <!-- TradingView Widget END --> <br>
+
+                                        <br>
+
+                                        <br>
+
+                                        <!-- TradingView Widget BEGIN -->
+                                        <div class="tradingview-widget-container">
+                                            <div class="tradingview-widget-container__widget"></div>
+                                            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"></a> </div>
+                                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
                                                 {
-                                                    "title": "S&P 500",
-                                                    "proName": "INDEX:SPX"
-                                                },
-                                                {
-                                                    "title": "Nasdaq 100",
-                                                    "proName": "INDEX:IUXX"
-                                                },
-                                                {
-                                                    "title": "EUR/USD",
-                                                    "proName": "FX_IDC:EURUSD"
-                                                },
-                                                {
-                                                    "title": "BTC/USD",
-                                                    "proName": "BITFINEX:BTCUSD"
+                                                    "symbols": [
+                                                    {
+                                                        "title": "S&P 500",
+                                                        "proName": "INDEX:SPX"
+                                                    },
+                                                    {
+                                                        "title": "Nasdaq 100",
+                                                        "proName": "INDEX:IUXX"
+                                                    },
+                                                    {
+                                                        "title": "EUR/USD",
+                                                        "proName": "FX_IDC:EURUSD"
+                                                    },
+                                                    {
+                                                        "title": "BTC/USD",
+                                                        "proName": "BITFINEX:BTCUSD"
+                                                    }
+                                                ],
+                                                    "locale": "en"
                                                 }
-                                            ],
-                                                "locale": "en"
-                                            }
-                                        </script>
-                                        <script src="https://widgets.coingecko.com/coingecko-coin-price-static-headline-widget.js"></script>
-                                        <coingecko-coin-price-static-headline-widget currency="usd" coin-ids="bitcoin,ethereum,eos,ripple,litecoin" locale="en"></coingecko-coin-price-static-headline-widget>
-                                        <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-                                        <coingecko-coin-price-chart-widget currency="usd" coin-id="bitcoin" locale="en" height="300" width="0"></coingecko-coin-price-chart-widget>
-                                    </div>
+                                            </script>
 
+                                            <style>
+                                                table, th, td {
 
+                                                    border: 7px solid black;
+                                                    table align: center;
 
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    
-                </div>
+                                                }
+                                            </style>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br>
+                                            <br>
 
+                                            <br>
 
-            
-                <div class="clearfix"></div>
+                                            <H1>NOTE: Once Payment has been made Kindly Contact our Support Management with Proof of Payment</H2>
+                                                <table align="left" font face="Courier New" size="24">
+                                                    <tr>
+                                                        <th>PAYMENT METHOD</th>
+                                                        <th>PAYMENT DETAILS</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>BITCOIN WALLET</td>
+                                                        <td> <input type="text" value="19HeTPggkuRDP85v9aQshii9vnLNcCTmMo" id="myInput" readonly>
+                                                            <button onclick="myFunction()">Copy</button></td>
+                                                    </tr>
+                                                    <!--Start of Tawk.to Script-->
+                                                    <script type="text/javascript">
+                                                        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                                                        (function(){
+                                                            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                                                            s1.async=true;
+                                                            s1.src='https://embed.tawk.to/5bd1ba2c476c2f239ff5ee2c/default';
+                                                            s1.charset='UTF-8';
+                                                            s1.setAttribute('crossorigin','*');
+                                                            s0.parentNode.insertBefore(s1,s0);
+                                                        })();
+                                                    </script>
+                                                    <!--End of Tawk.to Script-->
+                                                    <tr>
+                                                        <td>ETHER WALLET</td>
+                                                        <td><a href="mailto:support@bitoptionfx.com?subject=Support">
+                                                                support@bitoptionfx.com</a> </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>MONEY GRAM</td>
+                                                        <td><a href="mailto:support@bitoptionfx.com?subject=Support">
+                                                                support@bitoptionfx.com</a> </td>  </tr>
+                                                    <tr>
+                                                        <td>SKRILL</td>
+                                                        <td><a href="mailto:support@bitoptionfx.com?subject=Support">
+                                                                support@bitoptionfx.com</a> </td>  </tr>
+                                                    <tr>
+                                                        <td>WESTERN UNION</td>
+                                                        <td><a href="mailto:support@bitoptionfx.com?subject=Support">
+                                                                support@bitoptionfx.com</a> </td>  </tr>
 
-                <!-- MAIN CONTENT AREA ENDS -->
-            </div>
-        </section>
-        <!-- END CONTENT -->
-        <div class="page-chatapi hideit">
+                                                    <tr>
+                                                        <td>PERFECT MONEY</td>
+                                                        <td><a href="mailto:support@bitoptionfx.com?subject=Support">
+                                                                support@bitoptionfx.com</a> </td>  </tr>
 
-            <div class="search-bar">
-                <input type="text" placeholder="Search" class="form-control">
-            </div>
+                                                    <tr>
+                                                        <td>PAYPAL</td>
+                                                        <td><a href="mailto:support@bitoptionfx.com?subject=Support">
+                                                                support@bitoptionfx.com</a> </td>  </tr>
 
-            <div class="chat-wrapper">
+                                                </table>
 
-                <h4 class="group-head">Favourites</h4>
-                <ul class="contact-list">
+                                                <script>
+                                                    function myFunction() {
+                                                        var copyText = document.getElementById("myInput");
+                                                        copyText.select();
+                                                        document.execCommand("copy");
+                                                        alert("Copied the text: " + copyText.value);
+                                                    }
+                                                </script>
 
-                    <li class="user-row " id='chat_user_1' data-user-id='1'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-1.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Joge Lucky</a></h4>
-                            <span class="status available" data-status="available"> Available</span>
-                        </div>
-                        <div class="user-status available">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-                    <li class="user-row " id='chat_user_2' data-user-id='2'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-2.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Folisise Chosiel</a></h4>
-                            <span class="status away" data-status="away"> Away</span>
-                        </div>
-                        <div class="user-status away">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-                    <li class="user-row " id='chat_user_3' data-user-id='3'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-3.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Aron Gonzalez</a></h4>
-                            <span class="status busy" data-status="busy"> Busy</span>
-                        </div>
-                        <div class="user-status busy">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-
-                </ul>
-
-                <h4 class="group-head">More Contacts</h4>
-                <ul class="contact-list">
-
-                    <li class="user-row " id='chat_user_4' data-user-id='4'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-4.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Chris Fox</a></h4>
-                            <span class="status offline" data-status="offline"> Offline</span>
-                        </div>
-                        <div class="user-status offline">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-                    <li class="user-row " id='chat_user_5' data-user-id='5'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-5.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Mogen Polish</a></h4>
-                            <span class="status offline" data-status="offline"> Offline</span>
-                        </div>
-                        <div class="user-status offline">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-                    <li class="user-row " id='chat_user_6' data-user-id='6'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-1.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Smith Carter</a></h4>
-                            <span class="status available" data-status="available"> Available</span>
-                        </div>
-                        <div class="user-status available">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-                    <li class="user-row " id='chat_user_7' data-user-id='7'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-2.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Amilia Gozenal</a></h4>
-                            <span class="status busy" data-status="busy"> Busy</span>
-                        </div>
-                        <div class="user-status busy">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-                    <li class="user-row " id='chat_user_8' data-user-id='8'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-3.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Tahir Jemyship</a></h4>
-                            <span class="status away" data-status="away"> Away</span>
-                        </div>
-                        <div class="user-status away">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-                    <li class="user-row " id='chat_user_9' data-user-id='9'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-4.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Johanson Wright</a></h4>
-                            <span class="status busy" data-status="busy"> Busy</span>
-                        </div>
-                        <div class="user-status busy">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-                    <li class="user-row " id='chat_user_10' data-user-id='10'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-5.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Loni Tindall</a></h4>
-                            <span class="status away" data-status="away"> Away</span>
-                        </div>
-                        <div class="user-status away">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-                    <li class="user-row " id='chat_user_11' data-user-id='11'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-1.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Natcho Herlaey</a></h4>
-                            <span class="status idle" data-status="idle"> Idle</span>
-                        </div>
-                        <div class="user-status idle">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-                    <li class="user-row " id='chat_user_12' data-user-id='12'>
-                        <div class="user-img">
-                            <a href="#"><img src="../data/profile/avatar-2.png" alt=""></a>
-                        </div>
-                        <div class="user-info">
-                            <h4><a href="#">Shakira Swedan</a></h4>
-                            <span class="status idle" data-status="idle"> Idle</span>
-                        </div>
-                        <div class="user-status idle">
-                            <i class="fa fa-circle"></i>
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="chatapi-windows ">
-
-        </div>
-    </div>
-    <!-- END CONTAINER -->
-    <!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
-
-    <!-- CORE JS FRAMEWORK - START -->
-    <script src="/assets/plugins/swiper/jquery.min.js"></script>
-    <script src="/assets/js/jquery.easing.min.js"></script>
-    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/assets/plugins/pace/pace.min.js"></script>
-    <script src="/assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <script src="/assets/plugins/viewport/viewportchecker.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="/assets/js/jquery-1.11.2.min.js"><\/script>');
-    </script>
-    <!-- CORE JS FRAMEWORK - END -->
-
-    <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
-    <script src="/assets/plugins/sparkline-chart/jquery.sparkline.min.js"></script>
-
-    <script src="/assets/plugins/flot-chart/jquery.flot.js"></script>
-    <script src="/assets/plugins/flot-chart/jquery.flot.time.js"></script>
-    <script src="/assets/js/chart-flot.js"></script>
-
-    <script src="/assets/plugins/chartjs-chart/Chart.min.js"></script>
-
-
-    <script src="/assets/plugins/swiper/swiper.js"></script>
-    <script src="/assets/js/dashboard-crypto.js"></script>
-
-    
-    <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
-
-    <!-- CORE TEMPLATE JS - START -->
-    <script src="/assets/js/scripts.js"></script>
-    <!-- END CORE TEMPLATE JS - END -->
-
-</body>
-
-</html>
+                                        </div>
+                                        <canvas class="layer plot" width="1228" height="566" style="touch-action: none; width: 1228px; height: 566px; position: absolute; cursor: inherit;"></canvas></div><div class="deal-controller" data-deal-controller="1535807184814" style="margin-bottom: 0px;"><div class="holder"><div class="slider upper"><div class="current-deal"><div class="block amount no-swipe"><div class="title"><span>Amount</span></div><div class="amount-input"><span class="input-btn minus">−</span><span class="input currency-once"><i>$</i><input type="tel" value="50"></span><span class="input-btn plus">+</span></div></div><div class="block amount no-swipe strike-select"><div class="title"><span>Strike rate</span></div><div class="amount-input"><span class="input-btn minus down"></span><span class="input currency-once">1200.251</span><span class="input-btn plus up"></span></div></div><div class="block deal no-swipe"><div class="put-side"><div class="amount-data"><span class="money  money-big"><i class="currency">$</i>95.50</span></div><div class="deal-button put">91%</div></div><div class="call-side"><div class="amount-data"><span class="money  money-big"><i class="currency">$</i>95.50</span></div><div class="deal-button call">91%</div></div></div></div><div class="new-deal"><div class="block profit"><div class="title"><span>Profit</span></div><span class="money value money-big"><i class="currency">$</i>0</span></div><div class="block timer"><div class="title"><span>Expiration time</span></div><div class="value big">00:00</div></div><div class="block new"><i>+</i> <span>New option</span></div></div></div></div></div><span></span><span></span><span></span></div></div></div></div></div></div></div></div></main><script async="" src="./advolix_default_files/analytics.js.download"></script><script src="./advolix_default_files/305176646526859" async=""></script><script async="" src="./advolix_default_files/fbevents.js.download"></script><script async="" charset="utf-8" src="./advolix_default_files/saved_resource" type="text/javascript"></script><script>window.$zopim||function(t,e){var s=$zopim=function(t){s._.push(t)},n=s.s=t.createElement(e),o=t.getElementsByTagName(e)[0];s.set=function(t){s.set._.push(t)},s._=[],s.set._=[],n.async=!0,n.setAttribute("charset","utf-8"),n.src="https://v2.zopim.com/?3GWVlz4YyqBQb8oIzky6JCjyL0eTo3MA",s.t=+new Date,n.type="text/javascript",o.parentNode.insertBefore(n,o)}(document,"script")</script><script>window.production=!0,window.__gaAppID="UA-67290580-1",window.__gaConversionID=860009175</script><script>!function(e,t,n,c,o,a,f){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),o.push=o,o.loaded=!0,o.version="2.0",o.queue=[],(a=t.createElement(n)).async=!0,a.src="https://connect.facebook.net/en_US/fbevents.js",(f=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,f))}(window,document,"script"),fbq("init","305176646526859"),fbq("track","PageView")</script><script>!function(a,e,t,n,c,g,o){a.GoogleAnalyticsObject=c,a.ga=a.ga||function(){(a.ga.q=a.ga.q||[]).push(arguments)},a.ga.l=1*new Date,g=e.createElement(t),o=e.getElementsByTagName(t)[0],g.async=1,g.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(g,o)}(window,document,"script",0,"ga"),ga("create",window.__gaAppID,"auto")</script><script src="./advolix_default_files/f.txt" charset="utf-8" type="text/javascript"></script><script>window.desktopMode=!1,window.bugsnagKey="7a7136e2a69b73db5f6e542d90f334d4",window.version="4.0.82"</script><script src="./advolix_default_files/vendor-16.js.download"></script><script src="./advolix_default_files/app.js.download"></script></body></html>
