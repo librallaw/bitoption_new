@@ -49,9 +49,16 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
+            'username' => ['required', 'string', 'max:255','unique:users'],
+            'first_name' => ['required', 'string', 'max:255'],
+            'last_name' => ['required', 'string', 'max:255'],
+            'country' => ['required', 'string', 'max:255'],
+            'phone' => ['required', 'string', 'max:255'],
+            'security_question' => ['required', 'string', 'max:255'],
+            'security_answer' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'password' => ['required', 'string', 'min:8'],
+            'password_confirm' => ['required', 'string','same:password'],
         ]);
     }
 
@@ -63,10 +70,21 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+
+        User::unguard();
         return User::create([
-            'name' => $data['name'],
+            'username' => $data['username'],
+            'first_name' => $data['first_name'],
+            'last_name' => $data['last_name'],
+            'phone' => $data['phone'],
+            'country' => $data['country'],
+            'security_question' => $data['security_question'],
+            'security_answer' => $data['security_answer'],
             'email' => $data['email'],
+            'status' => 0,
             'password' => Hash::make($data['password']),
         ]);
+
+        User::reguard();
     }
 }

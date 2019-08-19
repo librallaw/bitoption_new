@@ -4,6 +4,10 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+            <div style="color:white;">
+                @include("alert")
+            </div>
+
             <div class="card" style="background: black">
                 <div class="card-header" align="center" style="color:white;font-size: 25px;">{{ __('Register') }}</div>
 
@@ -11,18 +15,18 @@
                     <form method="POST" action="{{ route('register') }}">
 
                             <div class="form-group  ">
-                                <input type="text" style="background: #30333c;color:#9397A0" name="username" value="" class="form-control" placeholder="Username"  />            </div>
+                                <input type="text" style="background: #30333c;color:#9397A0" name="username" value="{{old('username')}}" class="form-control" placeholder="Username"  />            </div>
                             <div class="form-group  ">
-                                <input type="text" style="background: #30333c;color:#9397A0" name="Firstname" value="" class="form-control" placeholder="First Name"  />            </div>
+                                <input type="text" style="background: #30333c;color:#9397A0" name="first_name" value="{{old('first_name')}}" class="form-control" placeholder="First Name"  />            </div>
                             <div class="form-group  ">
-                                <input type="text" style="background: #30333c;color:#9397A0" name="lastname" value="" class="form-control" placeholder="Last Name"  />            </div>
+                                <input type="text" style="background: #30333c;color:#9397A0" name="last_name" value="{{old('last_name')}}" class="form-control" placeholder="Last Name"  />            </div>
                             <div class="form-group  ">
-                                <input type="text" style="background: #30333c;color:#9397A0" name="email" value="" class="form-control" placeholder="Email"  />            </div>
+                                <input type="text" style="background: #30333c;color:#9397A0" name="email" value="{{old('email')}}" class="form-control" placeholder="Email"  />            </div>
                             <div class="form-group   password-container">
                                 <input type="password" style="background: #30333c;color:#9397A0" name="password" value="" id="pass" class="form-control" placeholder="Password"  /><!--                    <a class="show_pass" href="javascript:;" onmousedown="$('#pass,#confirm-pass').attr('type', 'text');" onmouseup="$('#pass,#confirm-pass').attr('type', 'password');"><i class="fa fa-eye"></i></a>-->
                             </div>
                             <div class="form-group   password-container">
-                                <input type="password" style="background: #30333c;color:#9397A0" name="confirm-password" value="" id="confirm-pass" class="form-control" placeholder="Password confirmation"  /><!--                    <a class="show_pass" href="javascript:;" onmousedown="$('#pass,#confirm-pass').attr('type', 'text');" onmouseup="$('#pass,#confirm-pass').attr('type', 'password');"><i class="fa fa-eye"></i></a>-->
+                                <input type="password" style="background: #30333c;color:#9397A0" name="password_confirm" value="" id="confirm-pass" class="form-control" placeholder="Password confirmation"  /><!--                    <a class="show_pass" href="javascript:;" onmousedown="$('#pass,#confirm-pass').attr('type', 'text');" onmouseup="$('#pass,#confirm-pass').attr('type', 'password');"><i class="fa fa-eye"></i></a>-->
                             </div>
                             <div class="form-group  ">
                                 <select class="form-control" name="country" required />
@@ -275,7 +279,7 @@
                                 </select>
                             </div>
                             <div class="form-group  ">
-                                <select name="secq" class="form-control" required>
+                                <select name="security_question" class="form-control" required>
                                     <option selected="selected">Choose your security question</option>
                                     <option>What is my pet name</option>
                                     <option>What is my Favourite TV program</option>
@@ -295,9 +299,9 @@
                                     <option>Other</option>
                                 </select>           </div>
                             <div class="form-group  ">
-                                <input type="text" style="background: #30333c;color:#9397A0" name="seca" value="" class="form-control" placeholder="Secret Answer"  />            </div>
+                                <input type="text" style="background: #30333c;color:#9397A0" name="security_answer" value="" class="form-control" placeholder="Secret Answer"  />            </div>
                             <div class="form-group  ">
-                                <input type="text" style="background: #30333c;color:#9397A0"  name="phone" value="" class="form-control" placeholder="Phone Number"  />            </div>
+                                <input type="text" style="background: #30333c;color:#9397A0"  name="phone" value="{{old('phone')}}" class="form-control" placeholder="Phone Number"  />            </div>
 
                             <div class="form-group  rules ">
                                 <div class="checkbox">
@@ -320,7 +324,7 @@
                             <div class="register-social" style="text-align: center">
                             </div>
                             <div style="text-align: center;color:white;">
-                                Already registered? - <a href="/account/login.php">Sign in</a>            </div>
+                                Already registered? - <a href="/login">Sign in</a>            </div>
 
                         @csrf
 
