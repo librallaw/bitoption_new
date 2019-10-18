@@ -90,13 +90,17 @@
                 
                 <div class="row">
 
+
+
+                    @include("alert")
                     <div class="col-xl-12 col-xxl-12 col-lg-12">
                         <div class="card">
+
                             <div class="card-body">
-                                <h4 class="card-title">Withdraw</h4>
+                                <h4 class="card-title">Deposit Address</h4>
                                 <div class="buy-token mt-4">
                                     <div class="basic-form">
-                                        <form>
+                                        <form >
                                             <div class="form-row">
                                                 <div class="form-group col-md-12">
                                                     <!-- <label>Bitcoin wallet address</label> -->
@@ -114,6 +118,35 @@
 
                                             </div>
 
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Deposit</h4>
+                                <div class="buy-token mt-4">
+                                    <div class="basic-form">
+                                        <form action="{{route("deposit")}}" method="post">
+                                            <div class="form-row">
+                                                <div class="form-group col-xl-12">
+                                                    <input type="text" class="form-control" name="amount"
+                                                           placeholder="Amount" required
+                                                    >
+                                                </div>
+                                                <div class="form-group col-xl-12">
+                                                    <input type="text" class="form-control" name="reference"
+                                                           placeholder="Reference" required
+                                                    >
+                                                </div>
+                                                @csrf
+
+
+                                            </div>
+                                            <button type="submit" class="btn btn-primary qx_btn">Send </button>
                                         </form>
                                     </div>
                                 </div>

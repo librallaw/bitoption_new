@@ -33,14 +33,14 @@ Route::get('/account/deposits', 'UserController@showDeposits')->name('showDeposi
 Route::get('/account/deposit', 'UserController@showDeposit')->name('showDeposit');
 
 
-
 Route::get('/plans', 'UserController@showPlans')->name('showPlans');
-
-
 
 Route::get('/account/profile', 'UserController@showProfile')->name('showProfile');
 Route::get('/account/resetpwd', 'UserController@resetpwd')->name('resetpwd');
 Route::get('/account/history', 'UserController@showHistory')->name('showHistory');
+
+Route::post('/transaction/deposit', 'TransactionController@deposit')->name('deposit');
+
 
 Auth::routes();
 
