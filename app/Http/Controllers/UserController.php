@@ -10,7 +10,13 @@ class UserController extends Controller
 
     public function showDashboard()
     {
-        return view("user.dashboard");
+        return view("user.dashboard3");
+    }
+
+
+    public function showTransactions()
+    {
+        return view("transactions");
     }
 
     public function showPlans()
@@ -18,16 +24,21 @@ class UserController extends Controller
         return view("user.plans");
     }
 
-
     public function showDeposit()
     {
-        return view("user.deposit");
+        return view("deposit");
+    }
+
+
+    public function showDeposits()
+    {
+        return view("deposits");
     }
 
 
     public function showWithdraw()
     {
-        return view("user.withdraw");
+        return view("withdraw");
     }
 
 

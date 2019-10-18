@@ -15,23 +15,23 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @font-face {
 	font-family: 'proximanovaboldwebfont';
-	src: url('fonts/proximanovaboldwebfont.eot');
-	src: url('fonts/proximanovaboldwebfont.eot') format('embedded-opentype'), url('fonts/proximanovaboldwebfont.woff2') format('woff2'), url('fonts/proximanovaboldwebfont.woff') format('woff'), url('fonts/proximanovaboldwebfont.ttf') format('truetype'), url('fonts/proximanovaboldwebfont.svg#proximanovaboldwebfont') format('svg');
+	src: url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovaboldwebfont.eot');
+	src: url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovaboldwebfont.eot') format('embedded-opentype'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovaboldwebfont.woff2') format('woff2'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovaboldwebfont.woff') format('woff'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovaboldwebfont.ttf') format('truetype'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovaboldwebfont.svg#proximanovaboldwebfont') format('svg');
 }
 @font-face {
 	font-family: 'proximanovalightwebfont';
-	src: url('fonts/proximanovalightwebfont.eot');
-	src: url('fonts/proximanovalightwebfont.eot') format('embedded-opentype'), url('fonts/proximanovalightwebfont.woff2') format('woff2'), url('fonts/proximanovalightwebfont.woff') format('woff'), url('fonts/proximanovalightwebfont.ttf') format('truetype'), url('fonts/proximanovalightwebfont.svg#proximanovalightwebfont') format('svg');
+	src: url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovalightwebfont.eot');
+	src: url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovalightwebfont.eot') format('embedded-opentype'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovalightwebfont.woff2') format('woff2'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovalightwebfont.woff') format('woff'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovalightwebfont.ttf') format('truetype'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/proximanovalightwebfont.svg#proximanovalightwebfont') format('svg');
 }
 @font-face {
 	font-family: 'ProximaNovaSemibold';
-	src: url('fonts/ProximaNovaSemibold.eot');
-	src: url('fonts/ProximaNovaSemibold.eot') format('embedded-opentype'), url('fonts/ProximaNovaSemibold.woff2') format('woff2'), url('fonts/ProximaNovaSemibold.woff') format('woff'), url('fonts/ProximaNovaSemibold.ttf') format('truetype'), url('fonts/ProximaNovaSemibold.svg#ProximaNovaSemibold') format('svg');
+	src: url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/ProximaNovaSemibold.eot');
+	src: url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/ProximaNovaSemibold.eot') format('embedded-opentype'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/ProximaNovaSemibold.woff2') format('woff2'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/ProximaNovaSemibold.woff') format('woff'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/ProximaNovaSemibold.ttf') format('truetype'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/ProximaNovaSemibold.svg#ProximaNovaSemibold') format('svg');
 }
 @font-face {
 	font-family: 'DigifaceWide';
-	src: url('fonts/DigifaceWide.eot');
-	src: url('fonts/DigifaceWide.eot?#iefix') format('embedded-opentype'), url('fonts/DigifaceWide.woff') format('woff'), url('fonts/DigifaceWide.ttf') format('truetype');
+	src: url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/DigifaceWide.eot');
+	src: url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/DigifaceWide.eot?#iefix') format('embedded-opentype'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/DigifaceWide.woff') format('woff'), url('https://www.bitoptionfx.com/wp-content/themes/binary16/fonts/DigifaceWide.ttf') format('truetype');
 	font-weight: 100;
 	font-style: normal;
 }
@@ -94,7 +94,7 @@ a, a:hover {
 .header_container {
 	width: 100%;
 	float: left;
-	background-image: url(images/bannerbg.jpg);
+	background-image: url("images/bannerbg.jpg");
 	background-position: center top;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -197,7 +197,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	width: 100%;
 	-webkit-appearance: none;
 	appearance: none;
-	background-image: url(images/lngddarow.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/lngddarow.png");
 	background-position: center right;
 }
 .homebnrcnt {
@@ -251,7 +251,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	top: 24px;
 	width: 119px;
 	height: 110px;
-	background-image: url(images/formarw.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/formarw.png");
 	background-position: 0 0;
 	content: '';
 	background-repeat: no-repeat;
@@ -319,31 +319,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	border: 1px solid rgba(255,255,255,0.8);
 }
 .ofaform .inprow .ofaname {
-	background-image: url(images/nameico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/nameico.png");
 }
 .ofaform .inprow .ofaphone {
-	background-image: url(images/phico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/phico.png");
 }
 .ofaform .inprow .ofaemail {
-	background-image: url(images/mailico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/mailico.png");
 }
 .ofaform .inprow .ofapswd {
-	background-image: url(images/psdico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/psdico.png");
 }
 .ofaform .inprow .ofaname:focus {
-	background-image: url(images/nameicoh.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/nameicoh.png");
 	border: 1px solid #24d57f;
 }
 .ofaform .inprow .ofaphone:focus {
-	background-image: url(images/phicoh.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/phicoh.png");
 	border: 1px solid #24d57f;
 }
 .ofaform .inprow .ofaemail:focus {
-	background-image: url(images/mailicoh.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/mailicoh.png");
 	border: 1px solid #24d57f;
 }
 .ofaform .inprow .ofapswd:focus {
-	background-image: url(images/psdicoh.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/psdicoh.png");
 	border: 1px solid #24d57f;
 }
 .ofaform .inprow .fl {
@@ -374,11 +374,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	height: 14px;
 	margin: -2px 6px 0 0;
 	vertical-align: middle;
-	background: url(images/chk-ho.png) 0 0 no-repeat;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/chk-ho.png") 0 0 no-repeat;
 	cursor: pointer;
 }
 .ofaform .inprowb input[type="checkbox"]:checked + label span {
-	background: url(images/chk.png) 0 0 no-repeat;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/chk.png") 0 0 no-repeat;
 }
 .ofaform .inprowb input[type="submit"] {
 	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1);
@@ -453,31 +453,31 @@ border:1px solid #f00;
 	left: 23px;
 }*/
 .ofaform .wl-signup .s_form tr:nth-child(2) td:nth-child(1) input {
-	background-image: url(images/nameico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/nameico.png");
 }
 .ofaform .wl-signup .s_form tr:nth-child(2) td:nth-child(2) input {
-	background-image: url(images/nameico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/nameico.png");
 }
 .ofaform .wl-signup .s_form tr:nth-child(3) td:nth-child(1) input {
-	background-image: url(images/mailico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/mailico.png");
 }
 .ofaform .wl-signup .s_form tr:nth-child(4) td:nth-child(1) input {
-	background-image: url(images/psdico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/psdico.png");
 }
 .ofaform .wl-signup .s_form tr:nth-child(2) td:nth-child(1) input:focus {
-	background-image: url(images/nameico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/nameico.png");
 	border: 1px solid #24d57f;
 }
 .ofaform .wl-signup .s_form tr:nth-child(2) td:nth-child(2) input:focus {
-	background-image: url(images/nameico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/nameico.png");
 	border: 1px solid #24d57f;
 }
 .ofaform .inprow .ofaemail:focus {
-	background-image: url(images/mailico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/mailico.png");
 	border: 1px solid #24d57f;
 }
 .ofaform .inprow .ofapswd:focus {
-	background-image: url(images/psdico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/psdico.png");
 	border: 1px solid #24d57f;
 }
 .ofaform .inprow .fl {
@@ -529,11 +529,11 @@ border:1px solid #f00;
 	height: 14px;
 	margin: -2px 6px 0 0;
 	vertical-align: middle;
-	background: url(images/chk-ho.png) 0 0 no-repeat;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/chk-ho.png") 0 0 no-repeat;
 	cursor: pointer;
 }
 .ofaform .wl-signup input[type="checkbox"]:checked + label span {
-	background: url(images/chk.png) 0 0 no-repeat;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/chk.png") 0 0 no-repeat;
 }
 .ofaform .wl-signup input[type="submit"] {
 	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1);
@@ -574,7 +574,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	float: left;
 	margin: 0;
 	padding: 75px 0 80px 0;
-	background-image: url(images/tbubg.jpg);
+	background-image: url("images/tbubg.jpg");
 	background-repeat: repeat;
 	background-position: 0 0;
 	position: relative;
@@ -682,7 +682,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	float: left;
 	margin: 0;
 	padding: 75px 0 80px 0;
-	background-image: url(images/stepsfourbg.jpg);
+	background-image: url("images/stepsfourbg.jpg");
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -809,7 +809,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	width: 100%;
 	float: left;
 	padding: 60px 0 80px;
-	background-image: url(images/serv-bg.jpg);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/serv-bg.jpg");
 	background-repeat: repeat-x;
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
@@ -909,7 +909,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	margin: 0;
 	padding: 78px 0;
 	background-repeat: no-repeat;
-	background-image: url(images/com-slider-bg.jpg);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/com-slider-bg.jpg");
 	-webkit-background-size: cover;
 	background-size: cover; /*background-attachment:fixed;*/
 }
@@ -961,21 +961,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 }
 .broker_sec .owl-controls .owl-buttons .owl-prev {
 	float: left;
-	background-image: url(images/slide-arw1.jpg);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/slide-arw1.jpg");
 	bottom: 48px;
 	left: -35px;
 }
 .broker_sec .owl-controls .owl-buttons .owl-prev:hover {
-	background-image: url(images/slide-arw1-hov.jpg);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/slide-arw1-hov.jpg");
 }
 .broker_sec .owl-controls .owl-buttons .owl-next {
 	float: right;
-	background-image: url(images/slide-arw2.jpg);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/slide-arw2.jpg");
 	bottom: 48px;
 	right: -35px;
 }
 .broker_sec .owl-controls .owl-buttons .owl-next:hover {
-	background-image: url(images/slide-arw2-hov.jpg);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/slide-arw2-hov.jpg");
 }
 .broker_sec #sync1 .item {
 	float: left;
@@ -1012,7 +1012,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 .txt-box {
 	width: 100%;
 	float: left;
-	background: url(images/txt-bg.jpg) repeat-x;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/txt-bg.jpg") repeat-x;
 	padding: 35px 0 75px; /*border-top: 1px solid #ff7000;*/
 }
 .txt-box ul {
@@ -1081,7 +1081,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	content: "";
 	width: 31px;
 	height: 16px;
-	background: url(images/btm-arw.png) no-repeat center top;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/btm-arw.png") no-repeat center top;
 	bottom: -16px;
 	z-index: 9999;
 	left: 0;
@@ -1098,7 +1098,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	margin: 0;
 	padding: 70px 0;
 	background-repeat: no-repeat;
-	background-image: url(images/circles-bg.jpg);
+	background-image: url("images/circles-bg.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1151,7 +1151,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	margin: 0;
 	padding: 70px 0;
 	background-repeat: no-repeat;
-	background-image: url(images/trading-bg.jpg);
+	background-image: url("images/trading-bg.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1259,17 +1259,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 }
 .outcom2 .top {
 	float: left;
-	background: url(images/circle-top.png) no-repeat center top;
+	background: url("images/circle-top.png") no-repeat center top;
 	width: 216px;
 	padding: 28px 0 18px;
 }
 .outcom2:nth-child(3) .top {
-	background: url(images/circle-hov.png) no-repeat center top;
+	background: url("images/circle-hov.png") no-repeat center top;
 }
 .outcom2 .top.null {
-	background: url(images/circle-hov.png) no-repeat center top !important;
+	background: url("images/circle-hov.png") no-repeat center top !important;
 }
-/*.top:hover { background: url(images/circle-hov.png) no-repeat center top; } */
+/*.top:hover { background: url("images/circle-hov.png") no-repeat center top; } */
 .outcom2 .top h4 {
 	color: #fff;
 	font-size: 24px;
@@ -1280,14 +1280,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	font-family: 'DigifaceWide';
 }
 .outcom2 .btm .time {
-	background: url(images/btm-ico.png) no-repeat center top 0;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/btm-ico.png") no-repeat center top 0;
 	text-align: center;
 	margin-top: 10px;
 	padding-top: 31px;
 }
 .outcom2 .btm {
 	float: left;
-	background: url(images/circle-btm-1.png) no-repeat center bottom;
+	background: url("images/circle-btm-1.png") no-repeat center bottom;
 	width: 216px;
 	padding: 0 0 15px;
 	margin-top: 4px;
@@ -1306,7 +1306,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	float: left;
 	width: 100%;
 	padding: 50px 0 20px 0;
-	background-image: url(images/tbubg.jpg);
+	background-image: url("images/tbubg.jpg");
 	background-repeat: repeat;
 	background-position: 0 0;
 	position: relative;
@@ -1363,7 +1363,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 .indi-line {
 	float: left;
 	width: 100%;
-	background-image: url(images/indi-line.png);
+	background-image: url("images/indi-line.png");
 	background-position: left center;
 	background-repeat: repeat-x;
 	padding: 10px 0;
@@ -1426,7 +1426,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	top: 60px;
 	width: 45px;
 	height: 183px;
-	background-image: url(images/indi-up.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indi-up.png");
 	background-position: left top;
 	background-repeat: no-repeat;
 }
@@ -1441,12 +1441,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	border: 1px solid #e8e8e8;
 	font-size: 0;
 	line-height: 0;
-	background-image: url(images/indicator1.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indicator1.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .indi-trend a:hover, .indi-rsi a:hover, .indi-williams a:hover {
-	background-image: url(images/indicator1-hvr.png);
+	background-image: url("images/indicator1-hvr.png");
 }
 .indi-trend h5, .indi-rsi h5, .indi-williams h5 {
 	position: absolute;
@@ -1474,19 +1474,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	text-align: right;
 }
 .indi-rsi a {
-	background-image: url(images/indicator3.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indicator3.png");
 }
 .indi-rsi a:hover {
-	background-image: url(images/indicator3-hvr.png);
+	background-image: url("images/indicator3-hvr.png");
 }
 .indi-williams {
 	margin: 0 0 100px 0;
 }
 .indi-williams a {
-	background-image: url(images/indicator5.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indicator5.png");
 }
 .indi-williams a:hover {
-	background-image: url(images/indicator5-hvr.png);
+	background-image: url("images/indicator5-hvr.png");
 }
 .indi-macd, .indi-stoch, .indi-cci {
 	float: left;
@@ -1506,7 +1506,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	top: -120px;
 	width: 35px;
 	height: 183px;
-	background-image: url(images/indi-down.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indi-down.png");
 	background-position: left bottom;
 	background-repeat: no-repeat;
 }
@@ -1550,24 +1550,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6c00', end
 	border: 1px solid #e8e8e8;
 	font-size: 0;
 	line-height: 0;
-	background-image: url(images/indicator2.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indicator2.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .indi-macd a:hover {
-	background-image: url(images/indicator2-hvr.png);
+	background-image: url("images/indicator2-hvr.png");
 }
 .indi-stoch a {
-	background-image: url(images/indicator4.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indicator4.png");
 }
 .indi-stoch a:hover {
-	background-image: url(images/indicator4-hvr.png);
+	background-image: url("images/indicator4-hvr.png");
 }
 .indi-cci a {
-	background-image: url(images/indicator6.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indicator6.png");
 }
 .indi-cci a:hover {
-	background-image: url(images/indicator6-hvr.png);
+	background-image: url("images/indicator6-hvr.png");
 }
 .indi-cci {
 	margin: 100px 0 0px 50px;
@@ -1594,7 +1594,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 	bottom: -24px;
 	width: 37px;
 	height: 26px;
-	background-image: url(images/indicator-hvr-arrow.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indicator-hvr-arrow.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -1676,7 +1676,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 .footer-sec {
 	float: left;
 	width: 100%;
-	background-image: url(images/footer-bg.jpg);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/footer-bg.jpg");
 	background-size: cover;
 	background-position: center top;
 	padding: 30px 0;
@@ -1685,7 +1685,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 	width: 100%;
 	float: left;
 	text-align: center;
-	background-image: url(images/border-bg.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/border-bg.png");
 	background-repeat: repeat-x;
 	background-position: center bottom;
 	padding: 0px 12px 15px
@@ -1729,7 +1729,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 .footer-sec ul li {
 	display: inline-block;
 	padding: 0px 20px;
-	background: url(images/disc.png) no-repeat left;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/disc.png") no-repeat left;
 	position: relative;
 }
 .footer-sec ul li a {
@@ -1783,7 +1783,7 @@ span.gflag {
 	font-size: 24px;
 	margin-right: 3px;
 	background-repeat: no-repeat;
-	background-image: url(images/24.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/24.png");
 }
 span.gflag img {
 	border: 0;
@@ -1880,14 +1880,14 @@ body {
 	width: 100%;
 	-webkit-appearance: none;
 	appearance: none;
-	background-image: url(images/lngddarow.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/lngddarow.png");
 	background-position: center right;
 }
 /*Inner Pages*/
 .inner-bnr {
 	width: 100%;
 	float: left;
-	background: url(images/inr-bg.jpg) no-repeat center top;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/inr-bg.jpg") no-repeat center top;
 	padding: 68px 0;
 	background-size: cover;
 }
@@ -1981,7 +1981,7 @@ img.aligncenter {
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 	margin-bottom: 20px;
-	background: url(images/list-bg.png) no-repeat left top 9px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/list-bg.png") no-repeat left top 9px;
 	padding-left: 15px;
 }
 .inner-content ul li strong {
@@ -2001,35 +2001,35 @@ img.aligncenter {
 	float: left;
 }
 .set-cnt ul .s-indi1 {
-	background: url(images/indicator1-hvr.png) no-repeat left top 2px;
+	background: url("images/indicator1-hvr.png") no-repeat left top 2px;
 	padding-left: 108px;
 }
 .set-cnt ul .s-indi2 {
-	background: url(images/indicator2-hvr.png) no-repeat left top 10px;
+	background: url("images/indicator2-hvr.png") no-repeat left top 10px;
 	padding-left: 108px;
 }
 .set-cnt ul .s-indi3 {
-	background: url(images/indicator3-hvr.png) no-repeat left top 16px;
+	background: url("images/indicator3-hvr.png") no-repeat left top 16px;
 	padding-left: 108px;
 }
 .set-cnt ul .s-indi4 {
-	background: url(images/indicator4-hvr.png) no-repeat left top 10px;
+	background: url("images/indicator4-hvr.png") no-repeat left top 10px;
 	padding-left: 108px;
 }
 .set-cnt ul .s-indi5 {
-	background: url(images/indicator5-hvr.png) no-repeat left top 10px;
+	background: url("images/indicator5-hvr.png") no-repeat left top 10px;
 	padding-left: 108px;
 }
 .set-cnt ul .s-indi6 {
-	background: url(images/indicator6-hvr.png) no-repeat left top 10px;
+	background: url("images/indicator6-hvr.png") no-repeat left top 10px;
 	padding-left: 108px;
 }
-/*.set-cnt ul .s-indi1:hover { background: url(images/indi1-hov.png) no-repeat left top 2px; }
-.set-cnt ul .s-indi2:hover { background: url(images/indi2-hov.png) no-repeat left top 10px; }
-.set-cnt ul .s-indi3:hover { background: url(images/indi3-hov.png) no-repeat left 10px top 16px; }
-.set-cnt ul .s-indi4:hover { background: url(images/indi4-hov.png) no-repeat left top 10px; }
-.set-cnt ul .s-indi5:hover { background: url(images/indi5-hov.png) no-repeat left top 10px; }
-.set-cnt ul .s-indi6:hover { background: url(images/indi6-hov.png) no-repeat left top 10px; }*/
+/*.set-cnt ul .s-indi1:hover { background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indi1-hov.png") no-repeat left top 2px; }
+.set-cnt ul .s-indi2:hover { background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indi2-hov.png") no-repeat left top 10px; }
+.set-cnt ul .s-indi3:hover { background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indi3-hov.png") no-repeat left 10px top 16px; }
+.set-cnt ul .s-indi4:hover { background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indi4-hov.png") no-repeat left top 10px; }
+.set-cnt ul .s-indi5:hover { background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indi5-hov.png") no-repeat left top 10px; }
+.set-cnt ul .s-indi6:hover { background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/indi6-hov.png") no-repeat left top 10px; }*/
 
 /*Affliates Page*/
 
@@ -2096,28 +2096,28 @@ img.aligncenter {
 	text-transform: uppercase;
 }
 .affli-tabs .aff-signup .s_form table tr:nth-child(1) td:nth-child(1) input {
-	background: url(images/aff-nm.png) no-repeat right 27px top 17px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/aff-nm.png") no-repeat right 27px top 17px;
 }
 .affli-tabs .aff-signup .s_form table tr:nth-child(1) td:nth-child(2) input {
-	background: url(images/aff-lnm.png) no-repeat right 27px top 17px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/aff-lnm.png") no-repeat right 27px top 17px;
 }
 .affli-tabs .aff-signup .s_form table tr:nth-child(2) input {
-	background: url(images/aff-msg.png) no-repeat right 27px top 17px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/aff-msg.png") no-repeat right 27px top 17px;
 }
 .affli-tabs .aff-signup .s_form table tr:nth-child(3) input {
-	background: url(images/aff-pwd.png) no-repeat right 27px top 17px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/aff-pwd.png") no-repeat right 27px top 17px;
 }
 .affli-tabs .aff-signup .s_form table tr:nth-child(4) input {
-	background: url(images/aff-cpwd.png) no-repeat right 27px top 17px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/aff-cpwd.png") no-repeat right 27px top 17px;
 }
 .affli-tabs .aff-signup .s_form table tr:nth-child(5) input {
-	background: url(images/aff-bus.png) no-repeat right 27px top 17px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/aff-bus.png") no-repeat right 27px top 17px;
 }
 .affli-tabs .aff-signup .s_form table tr:nth-child(6) input {
-	background: url(images/aff-web.png) no-repeat right 27px top 17px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/aff-web.png") no-repeat right 27px top 17px;
 }
 .affli-tabs .aff-signup .s_form table tr:nth-child(7) input {
-	background: url(images/aff-phn.png) no-repeat right 27px top 17px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/aff-phn.png") no-repeat right 27px top 17px;
 }
 .affli-tabs .aff-signup .s_form table tr:nth-child(9) input {
 	background: #ff6c00;
@@ -2153,10 +2153,10 @@ img.aligncenter {
 	font-family: 'ProximaNovaSemibold';
 }
 .affli-tabs .aff-login .l_form table tr:nth-child(1) td:nth-child(1) input {
-	background: url(images/aff-msg.png) no-repeat right 27px top 17px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/aff-msg.png") no-repeat right 27px top 17px;
 }
 .affli-tabs .aff-login .l_form table tr:nth-child(2) td:nth-child(1) input {
-	background: url(images/aff-pwd.png) no-repeat right 27px top 17px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/aff-pwd.png") no-repeat right 27px top 17px;
 }
 .affli-tabs .s_form label {
 	height: 15px;
@@ -2198,7 +2198,7 @@ img.aligncenter {
 .affli-tabs div.tabcontents:before {
 	position: absolute;
 	content: "";
-	background: url(images/affli-btm.jpg) no-repeat center bottom;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/affli-btm.jpg") no-repeat center bottom;
 	height: 10px;
 	width: 100%;
 	left: 0px;
@@ -2322,7 +2322,7 @@ background:#132130 !important;
 .inner-content .c-frm .map:before {
 	position: absolute;
 	content: "";
-	background: url(images/map-logo.png) no-repeat center;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/map-logo.png") no-repeat center;
 	left: 220px;
 	top: 235px;
 	width: 93px;
@@ -2372,16 +2372,16 @@ background:#132130 !important;
 	height: 111px;
 }
 .frm ul li.nm input {
-	background-image: url(images/nameico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/nameico.png");
 }
 .frm ul li.phn input {
-	background-image: url(images/phico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/phico.png");
 }
 .frm ul li.mail input {
-	background-image: url(images/mailico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/mailico.png");
 }
 .frm ul li.msg textarea {
-	background-image: url(images/cmnt-ico.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/cmnt-ico.png");
 	background-position: top 20px right 28px;
 }
 .frm ul li.phn {
@@ -2394,19 +2394,19 @@ background:#132130 !important;
 	width: 100%;
 }
 .frm ul li.nm input:focus {
-	background-image: url(images/nameicoh.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/nameicoh.png");
 	border: 1px solid #24d57f;
 }
 .frm ul li.phn input:focus {
-	background-image: url(images/phicoh.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/phicoh.png");
 	border: 1px solid #24d57f;
 }
 .frm ul li.mail input:focus {
-	background-image: url(images/mailicoh.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/mailicoh.png");
 	border: 1px solid #24d57f;
 }
 .frm ul li.msg textarea:focus {
-	background-image: url(images/cmticoh.png);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/cmticoh.png");
 	border: 1px solid #24d57f;
 }
 .frm input[type="submit"] {
@@ -2454,7 +2454,7 @@ background:#132130 !important;
 	font-weight: bold;
 }
 .frm {
-	background-image: url(images/frm-inr-bg.jpg);
+	background-image: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/frm-inr-bg.jpg");
 	background-position: 0 0;
 	background-repeat: repeat;
 	padding: 53px 50px;
@@ -2465,7 +2465,7 @@ background:#132130 !important;
 	content: "";
 	bottom: -10px;
 	position: absolute;
-	background: url(images/cfrm-border.jpg) no-repeat center bottom;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/cfrm-border.jpg") no-repeat center bottom;
 	height: 8px;
 	width: 100%;
 	left: 0px;
@@ -2593,7 +2593,7 @@ background:#132130 !important;
 	position: absolute;
 	content: " ";
 	left: -30px;
-	background: url(images/meta-tags.png) no-repeat;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/meta-tags.png") no-repeat;
 	width: 25px;
 	height: 20px;
 	top: -4px;
@@ -2603,7 +2603,7 @@ background:#132130 !important;
 	position: absolute;
 	content: " ";
 	left: 0px;
-	background: url(images/meta-tags.png) no-repeat;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/meta-tags.png") no-repeat;
 	width: 25px;
 	height: 20px;
 	top: 10px;
@@ -2724,7 +2724,7 @@ background:#132130 !important;
 	width: 100%;
 }
 .faq-ques ul.ques-tag li {
-	background: url(images/ques.png) no-repeat left top 0px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/ques.png") no-repeat left top 0px;
 	padding-left: 53px;
 }
 .faq-ques li h5 {
@@ -2750,7 +2750,7 @@ background:#132130 !important;
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 	margin-bottom: 10px;
-	background: url(images/list-bg.png) no-repeat left top 9px;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/list-bg.png") no-repeat left top 9px;
 	padding-left: 15px;
 	width: 100%;
 }
@@ -2780,7 +2780,7 @@ background:#132130 !important;
 	content: "";
 	width: 31px;
 	height: 16px;
-	background: url(images/arw-top.jpg) no-repeat center top;
+	background: url("https://www.bitoptionfx.com/wp-content/themes/binary16/images/arw-top.jpg") no-repeat center top;
 	bottom: -38px;
 	z-index: 9999;
 	left: 0;

@@ -55,7 +55,7 @@
 
 /* mouse grab icon */
 .grabbing { 
-    cursor:url(grabbing.png) 8 8, move;
+    cursor:url("https://www.bitoptionfx.com/wp-content/themes/binary16/css/grabbing.png") 8 8, move;
 }
 
 /* fix */

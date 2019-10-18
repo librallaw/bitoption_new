@@ -312,8 +312,8 @@ if(GTranslateGetCurrentLang() != null)jQuery(document).ready(function() {jQuery(
 <p>Click on Auto-Trade button to start trading CFD/Forex automatically with the help of the software.</p>
 </div>
 </div>
-<div class="joinbtn"><a href="/account/register.php">Join With Us Now</a></div>
-<p>Already have an account? <a href="/account/login.php">Login Here</a></p>
+<div class="joinbtn"><a href="/register">Join With Us Now</a></div>
+<p>Already have an account? <a href="/login">Login Here</a></p>
 <!-- / WYSIWYG Widgets --></section>  </div>
 </div>
 <div class="serv_blocks">
@@ -659,8 +659,8 @@ Our team of expert conducted a research of the Tropical Trade CFD/Forex trading 
 </div>
 </div>
 <div class="indi-links">
-<div class="joinnow"><a href="/account/register.php">Join With Us Now</a></div>
-<p>Already have an account? <a href="/account/login.php">Login Here</a></p>
+<div class="joinnow"><a href="/register">Join With Us Now</a></div>
+<p>Already have an account? <a href="/login.php">Login Here</a></p>
 </div>
 <!-- / WYSIWYG Widgets --></section>  </div>
 </div>
