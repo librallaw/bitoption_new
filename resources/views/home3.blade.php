@@ -30,17 +30,19 @@
         <div></div>
     </div>
 </div>
+
 @include("inc.header2")
+
 <section class="hero-area">
     <div class="container">
         <div class="row">
             <div class="col-lg-7">
                 <div class="hero-content">
-                    <h1 class="hero__title">secure and easy way to trade bitcoin.</h1>
+                    <h1 class="hero__title">secure and easy way to invest bitcoin.</h1>
                     <p class="hero__desc">Decentralized digital currency that enables instant payments <br>
                                                anyone in the global control the creation of additional.</p>
                     <div class="hero-btn">
-                        <a href="index.html#" class="theme-btn">get started now</a>
+                        <a href="/home" class="theme-btn">get started now</a>
                         <a class="mfp-iframe video-play-btn" href="https://www.youtube.com/watch?v=GmOzih6I1zs" title="Play Video">
                             Watch a Video <i class="fa fa-play"></i>
                         </a>
@@ -148,9 +150,9 @@
                     <div class="feature__icon">
                         <i class="flaticon-012-bitcoin-15"></i>
                     </div>
-                    <h3 class="feature__title">Buy/Sell with wallet</h3>
+                    <h3 class="feature__title">Invest to Earn</h3>
                     <p class="feature__desc">
-                        Our system automatically does the trading for you and u can withdraw anytime
+                        Our system automatically does the mining for and you can withdraw anytime without charges.
                     </p>
                     <a href="/dashboard" class="theme-btn feature__btn">Buy/sell</a>
                 </div><!-- end feature-item -->
@@ -172,7 +174,7 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs justify-content-center" role="tablist">
                         <li role="presentation">
-                            <a href="pricing.html#tab4" role="tab" data-toggle="tab" class="active"
+                            <a href="#tab4" role="tab" data-toggle="tab" class="active"
                                aria-selected="true">Investment Packages</a>
                         </li>
 
@@ -184,16 +186,18 @@
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="package-content">
                                         <h4 class="package__title">
-                                            Plan 1
+                                           Starter Plan
                                         </h4>
                                         <div class="price__box">
                                             120%
 
-                                            After 24 Hours btc <br /><br />
-                                            Min:<br />  <span class="currency"><i class="fa fa-dollar-sign"></i></span><span class="price__price">15</span><br /><br />
+                                           <br /><br />
+                                            Min:<br />  <span class="currency"><i class="fa
+                                            fa-dollar-sign"></i></span><span class="price__price">300</span><br
+                                            /><br />
                                             Max:<br />  <span class="currency"><i class="fa fa-dollar-sign"></i></span><span class="price__price">7,500</span>
                                         </div>
-                                        <a href="pricing.html#" class="order__btn">Start now</a>
+                                        <a href="/home" class="order__btn">Start now</a>
                                     </div><!-- end package-content -->
                                 </div><!-- end col-lg-3 -->
 
@@ -203,16 +207,17 @@
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="package-content">
                                         <h4 class="package__title">
-                                            Plan 2
+                                            Bronze Plan
                                         </h4>
                                         <div class="price__box">
                                             130%
 
-                                            After 48 Hours btc <br /><br />
-                                            Min:<br />  <span class="currency"><i class="fa fa-dollar-sign"></i></span><span class="price__price">500</span><br /><br />
+                                            <br /><br />
+                                            Min:<br />  <span class="currency"><i class="fa
+                                            fa-dollar-sign"></i></span><span class="price__price">600</span><br /><br />
                                             Max:<br />  <span class="currency"><i class="fa fa-dollar-sign"></i></span><span class="price__price">10,000</span>
                                         </div>
-                                        <a href="pricing.html#" class="order__btn">Start now</a>
+                                        <a href="/home" class="order__btn">Start now</a>
                                     </div><!-- end package-content -->
                                 </div>
 
@@ -224,16 +229,18 @@
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="package-content">
                                         <h4 class="package__title">
-                                            Plan 3
+                                            Silver Plan
                                         </h4>
                                         <div class="price__box">
                                             150%
 
-                                            After 72 Hours btc <br /><br />
-                                            Min:<br />  <span class="currency"><i class="fa fa-dollar-sign"></i></span><span class="price__price">750</span><br /><br />
+                                           <br /><br />
+                                            Min:<br />  <span class="currency"><i class="fa
+                                            fa-dollar-sign"></i></span><span class="price__price">1000</span><br
+                                            /><br />
                                             Max:<br />  <span class="currency"><i class="fa fa-dollar-sign"></i></span><span class="price__price">25,000</span>
                                         </div>
-                                        <a href="pricing.html#" class="order__btn">Start now</a>
+                                        <a href="/home" class="order__btn">Start now</a>
                                     </div><!-- end package-content -->
                                 </div>
 
@@ -246,16 +253,17 @@
                                 <div class="col-lg-3 col-sm-6">
                                     <div class="package-content">
                                         <h4 class="package__title">
-                                            Plan 4
+                                            Gold Plan
                                         </h4>
                                         <div class="price__box">
                                             180%
 
-                                            After 72 Hours btc <br /><br />
-                                            Min:<br />  <span class="currency"><i class="fa fa-dollar-sign"></i></span><span class="price__price">1,000</span><br /><br />
+                                             <br /><br />
+                                            Min:<br />  <span class="currency"><i class="fa
+                                            fa-dollar-sign"></i></span><span class="price__price">3,000</span><br /><br />
                                             Max:<br />  <span class="currency"><i class="fa fa-dollar-sign"></i></span><span class="price__price">50,500</span>
                                         </div>
-                                        <a href="pricing.html#" class="order__btn">Start now</a>
+                                        <a href="/home" class="order__btn">Start now</a>
                                     </div><!-- end package-content -->
                                 </div>
 
@@ -274,7 +282,7 @@
                                             <span class="currency"><i class="fab fa-bitcoin"></i></span>
                                             <span class="price__price">0.2</span>
                                         </div>
-                                        <a href="pricing.html#" class="order__btn">sell now </a>
+                                        <a href="/home" class="order__btn">sell now </a>
                                     </div><!-- end package-content -->
                                 </div><!-- end col-lg-3 -->
                                 <div class="col-lg-3 col-sm-6">
@@ -286,7 +294,7 @@
                                             <span class="currency"><i class="fab fa-bitcoin"></i></span>
                                             <span class="price__price">0.5</span>
                                         </div>
-                                        <a href="pricing.html#" class="order__btn">sell now </a>
+                                        <a href="/home" class="order__btn">sell now </a>
                                     </div><!-- end package-content -->
                                 </div><!-- end col-lg-3 -->
                                 <div class="col-lg-3 col-sm-6">
@@ -298,7 +306,7 @@
                                             <span class="currency"><i class="fab fa-bitcoin"></i></span>
                                             <span class="price__price">1</span>
                                         </div>
-                                        <a href="pricing.html#" class="order__btn">sell now </a>
+                                        <a href="/home" class="order__btn">sell now </a>
                                     </div><!-- end package-content -->
                                 </div><!-- end col-lg-3 -->
                                 <div class="col-lg-3 col-sm-6">
@@ -310,7 +318,7 @@
                                             <span class="currency"><i class="fab fa-bitcoin"></i></span>
                                             <span class="price__price">2</span>
                                         </div>
-                                        <a href="pricing.html#" class="order__btn">sell now </a>
+                                        <a href="/home" class="order__btn">sell now </a>
                                     </div><!-- end package-content -->
                                 </div><!-- end col-lg-3 -->
                             </div>
@@ -354,7 +362,7 @@
                         Isn’t that exactly what everyone dreams of? With us you can earn up to 15% per day. Fast profits with fast withdrawals. Everything is automated to supply the best possible experience for our investors. If you want to know more about how and why we do this, click on the button below to find out.
                         </p>
                     </div><!-- end sec-heading -->
-                    <a href="about.html" class="theme-btn readmore__btn">read more</a>
+                    <a href="/about" class="theme-btn readmore__btn">read more</a>
                 </div><!-- end about-item -->
             </div><!-- end col-lg-6 -->
             <div class="col-lg-5 ml-auto">
@@ -381,7 +389,7 @@
                 <div class="about-sub-box">
                     <p>
                         Do not hesitate to start with us for better help and services.
-                        <a href="index.html#" class="theme-btn">get started</a>
+                        <a href="/register" class="theme-btn">get started</a>
                     </p>
                 </div><!-- end about-sub-box -->
             </div><!-- end col-lg-12 -->
@@ -412,7 +420,7 @@
                    <div class="flaticon__icon">
                        <span class="flaticon-014-bitcoin-13"></span>
                    </div>
-                    <h3 class="hiw__title"><a href="service.html">safe and secure</a></h3>
+                    <h3 class="hiw__title"><a >safe and secure</a></h3>
                     <p class="hiw__desc">
 
                     </p>
@@ -423,7 +431,7 @@
                     <div class="flaticon__icon">
                         <span class="flaticon-031-bitcoin-4"></span>
                     </div>
-                    <h3 class="hiw__title"><a href="service.html">world coverage</a></h3>
+                    <h3 class="hiw__title"><a>world coverage</a></h3>
                     <p class="hiw__desc">
 
                     </p>
@@ -434,7 +442,7 @@
                     <div class="flaticon__icon">
                         <span class="flaticon-001-bitcoin-20"></span>
                     </div>
-                    <h3 class="hiw__title"><a href="service.html">24/7 support</a></h3>
+                    <h3 class="hiw__title"><a>24/7 support</a></h3>
                     <p class="hiw__desc">
 
                     </p>
@@ -445,7 +453,7 @@
                     <div class="flaticon__icon">
                         <span class="flaticon-002-bitcoin-19"></span>
                     </div>
-                    <h3 class="hiw__title"><a href="service.html">Transparency </a></h3>
+                    <h3 class="hiw__title"><a>Transparency </a></h3>
                     <p class="hiw__desc">
 
                     </p>
@@ -456,7 +464,7 @@
                     <div class="flaticon__icon">
                         <span class="flaticon-004-saving"></span>
                     </div>
-                    <h3 class="hiw__title"><a href="service.html">Fast Payout</a></h3>
+                    <h3 class="hiw__title"><a>Fast Payout</a></h3>
                     <p class="hiw__desc">
 
                     </p>
@@ -467,7 +475,7 @@
                     <div class="flaticon__icon">
                         <span class="flaticon-029-bitcoin-6"></span>
                     </div>
-                    <h3 class="hiw__title"><a href="service.html">high liquidity</a></h3>
+                    <h3 class="hiw__title"><a>high liquidity</a></h3>
                     <p class="hiw__desc">
 
                     </p>
@@ -500,7 +508,7 @@
                         <div class="circle-two"></div>
                         <div class="circle-three"></div>
                     </div>
-                    <a href="index.html#" class="theme-btn">get started</a>
+                    <a href="/home" class="theme-btn">get started</a>
                 </div><!-- end cta-btn-box -->
             </div><!-- end col-lg-4 -->
         </div><!-- end row -->
@@ -549,7 +557,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Freddy</td>
-                            <td style="text-align: left" class="menutxt">$28.00</td>
+                            <td style="text-align: left" class="menutxt">$328.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -560,7 +568,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Martinez</td>
-                            <td style="text-align: left" class="menutxt">$50.00</td>
+                            <td style="text-align: left" class="menutxt">$650.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -571,7 +579,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Esrom6</td>
-                            <td style="text-align: left" class="menutxt">$25.00</td>
+                            <td style="text-align: left" class="menutxt">$425.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -582,7 +590,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Jeyo89</td>
-                            <td style="text-align: left" class="menutxt">$80.00</td>
+                            <td style="text-align: left" class="menutxt">$780.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -593,7 +601,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Kanil</td>
-                            <td style="text-align: left" class="menutxt">$30.00</td>
+                            <td style="text-align: left" class="menutxt">$320.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -604,7 +612,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Masgom</td>
-                            <td style="text-align: left" class="menutxt">$15.00</td>
+                            <td style="text-align: left" class="menutxt">$515.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -615,7 +623,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Cass</td>
-                            <td style="text-align: left" class="menutxt">$50.00</td>
+                            <td style="text-align: left" class="menutxt">$450.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -626,7 +634,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Suca24</td>
-                            <td style="text-align: left" class="menutxt">$20.00</td>
+                            <td style="text-align: left" class="menutxt">$920.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -637,7 +645,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Zoe</td>
-                            <td style="text-align: left" class="menutxt">$15.00</td>
+                            <td style="text-align: left" class="menutxt">$715.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -648,7 +656,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Doperide</td>
-                            <td style="text-align: left" class="menutxt">$50.00</td>
+                            <td style="text-align: left" class="menutxt">$250.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -672,8 +680,8 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td style="text-align: left" class="menutxt">Zoe</td>
-                            <td style="text-align: left" class="menutxt">$18.00</td>
+                            <td style="text-align: left" class="menutxt">Benard</td>
+                            <td style="text-align: left" class="menutxt">$850.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -682,8 +690,8 @@
 
                         <tbody>
                         <tr>
-                            <td style="text-align: left" class="menutxt">maria</td>
-                            <td style="text-align: left" class="menutxt">$18.00</td>
+                            <td style="text-align: left" class="menutxt">kerkt</td>
+                            <td style="text-align: left" class="menutxt">$1080.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -692,28 +700,8 @@
 
                         <tbody>
                         <tr>
-                            <td style="text-align: left" class="menutxt">Osisiego1</td>
-                            <td style="text-align: left" class="menutxt">$180.00</td>
-                            <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
-
-
-                        </tr></tbody>
-
-
-                        <tbody>
-                        <tr>
-                            <td style="text-align: left" class="menutxt">Excellency1</td>
-                            <td style="text-align: left" class="menutxt">$72.00</td>
-                            <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
-
-
-                        </tr></tbody>
-
-
-                        <tbody>
-                        <tr>
-                            <td style="text-align: left" class="menutxt">satia</td>
-                            <td style="text-align: left" class="menutxt">$384.00</td>
+                            <td style="text-align: left" class="menutxt">Maria</td>
+                            <td style="text-align: left" class="menutxt">$940.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -723,7 +711,27 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Luca</td>
-                            <td style="text-align: left" class="menutxt">$57.50</td>
+                            <td style="text-align: left" class="menutxt">$1122.00</td>
+                            <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
+
+
+                        </tr></tbody>
+
+
+                        <tbody>
+                        <tr>
+                            <td style="text-align: left" class="menutxt">Ahmed</td>
+                            <td style="text-align: left" class="menutxt">$884.00</td>
+                            <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
+
+
+                        </tr></tbody>
+
+
+                        <tbody>
+                        <tr>
+                            <td style="text-align: left" class="menutxt">Luca</td>
+                            <td style="text-align: left" class="menutxt">$957.50</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -733,7 +741,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">ROSINO</td>
-                            <td style="text-align: left" class="menutxt">$18.00</td>
+                            <td style="text-align: left" class="menutxt">$1080.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -743,7 +751,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Umer</td>
-                            <td style="text-align: left" class="menutxt">$28.75</td>
+                            <td style="text-align: left" class="menutxt">$1208.75</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -753,7 +761,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Hanssam</td>
-                            <td style="text-align: left" class="menutxt">$24.00</td>
+                            <td style="text-align: left" class="menutxt">$2344.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 
@@ -763,7 +771,7 @@
                         <tbody>
                         <tr>
                             <td style="text-align: left" class="menutxt">Farid</td>
-                            <td style="text-align: left" class="menutxt">$48.00</td>
+                            <td style="text-align: left" class="menutxt">$1248.00</td>
                             <td style="text-align: left" class="menutxt"><img src="images/48.gif"></td>
 
 

@@ -124,7 +124,7 @@
                                 </tr>
                                 <tr>
                                     <td>BITCOIN WALLET</td>
-                                    <td> <input type="text" value="19HeTPggkuRDP85v9aQshii9vnLNcCTmMo" id="myInput" readonly>
+                                    <td> <input type="text" value="1GSWgNT2FbPvcfdG1afRMYFSVAgakENhii" id="myInput" readonly>
                                         <button onclick="myFunction()">Copy</button></td>
                                 </tr>
 

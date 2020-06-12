@@ -1,6 +1,8 @@
+<script src="//code.jivosite.com/widget.js" data-jv-id="kcr53AiRQ0" async></script>
+
 <div class="nav-header">
     <div class="brand-logo">
-        <a href="/index.html">
+        <a href="/">
             <b class="logo-abbr">B </b>
             <span class="brand-title">Block Chain Traders</span>
         </a>
@@ -40,7 +42,7 @@
 
                 <li class="icons">
                     <div class="user-img c-pointer">
-                        <img src="/images/users/1.jpg" height="40" width="40" alt="avatar">
+                        {{--<img src="/images/users/1.jpg" height="40" width="40" alt="avatar">--}}
                         <strong class="ml-2">{{Auth::user()->first_name." ".Auth::user()->last_name}} <span><i class="fa
                         fa-caret-down
                         ml-2"></i></span></strong>
@@ -50,7 +52,7 @@
                         <div class="dropdown-content-body">
                             <ul>
 
-                                <li><a href="">Logout</a>
+                                <li><a href="{{route("logout")}}">Logout</a>
                                 </li>
                             </ul>
                         </div>

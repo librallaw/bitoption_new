@@ -77,6 +77,9 @@
 
             <div class="row page-titles mx-0">
                 <div class="col p-md-0">
+                    <br />
+                    <br />
+
                     <div class="breadcrumb-range-picker">
                         <span><i class="icon-calender"></i></span>
                         <span class="ml-1">{{date("D, jS M, Y")}}</span>
@@ -89,6 +92,7 @@
             <div class="container">
                 
                 <div class="row">
+                    @include("alert")
 
                     <div class="col-xl-12 col-xxl-12 col-lg-12">
                         <div class="card">
@@ -96,15 +100,29 @@
                                 <h4 class="card-title">Withdraw</h4>
                                 <div class="buy-token mt-4">
                                     <div class="basic-form">
-                                        <form>
+                                        <form action="{{route("withdraw")}}" method="post">
+                                            @csrf
+
+                                            <div class="form-row">
+                                            <div class="form-group col-xl-12">
+                                                <select option type="text" class="form-control" name="type"
+                                                        required
+                                                >
+                                                    <option value="">Please select type</option>
+                                                    <option value="bitcoin">Bit Coin</option>
+                                                    <option value="paypal">Paypal</option>
+                                                </select>
+                                            </div>
+                                            </div>
                                             <div class="form-row">
                                                 <div class="form-group col-xl-12">
-                                                    <input type="text" class="form-control" placeholder="Amount"
+                                                    <input type="text" class="form-control" name="amount"
+                                                           placeholder="Amount"
                                                           >
                                                 </div>
                                                 <div class="form-group col-xl-12">
-                                                    <input type="text" class="form-control" placeholder="Security Answer"
-                                                    >
+                                                    <input type="text" class="form-control" name="answer"
+                                                           placeholder="Security Answer">
                                                 </div>
 
 
@@ -120,126 +138,50 @@
                     <div class="col-xl-12 col-xxl-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Latest Withdrawals</h4>
+                                <h4 class="card-title">Withdrawals Transactions</h4>
                                 <div class="table-responsive">
                                     <table class="table table-responsive-sm">
                                         <thead>
-                                            <tr>
-                                                <th scope="col">Transaction Hash</th>
-                                                <th scope="col">BTC</th>
-                                                <th scope="col">Time</th>
-                                                <th scope="col">Status</th>
-                                            </tr>
+                                        <tr>
+                                            <th scope="col">Transaction Hash</th>
+                                            <th scope="col">BTC</th>
+                                            <th scope="col">Time</th>
+                                            <th scope="col">Status</th>
+                                        </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td><a href="/javascript:void()">s0o8p4mwcibxxy2</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-success">Confirmed</span>
-                                                </td>
+                                        @if(count($withdrawals) > 0)
+                                            @foreach($withdrawals as $withdrawal)
+                                                <tr>
+                                                    <td>{{$withdrawal->reference}}
+                                                    </td>
+                                                    <td>{{$withdrawal->amount}} <span class="BTC">BTC</span>
+                                                    </td>
+                                                    <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> {{$withdrawal->created_at->diffForHumans()}}</td>
+                                                    @if($withdrawal->status == 1)
+                                                        <td><span class="badge badge-success">Confirmed</span>
+                                                        </td>
+                                                    @endif
+                                                    @if($withdrawal->status == 2)
+                                                        <td><span class="badge badge-warning">Pending</span>
+                                                        </td>
+                                                    @endif
+                                                    @if($withdrawal->status == 0)
+                                                        <td><span class="badge badge-danger">Cancelled</span>
+                                                        </td>
+                                                    @endif
+                                                </tr>
+                                            @endforeach
+                                        @else
+                                            <div>
+                                                No Withdrawal found
+                                            </div>
+                                            @endif
+
                                             </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-success">Confirmed</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-danger">Cancel</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-danger">Cancel</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-warning">Pending</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-warning">Pending</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-warning">Pending</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-danger">Cancel</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-success">Confirm</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-warning">Pending</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-success">Confirm</span>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="/javascript:void()">5r1g5f4d5f45d2f</a>
-                                                </td>
-                                                <td>4.23265785 <span class="BTC">BTC</span>
-                                                </td>
-                                                <td><span><i class="fa fa-clock-o" aria-hidden="true"></i></span> 1 min ago</td>
-                                                <td><span class="badge badge-danger">Cancel</span>
-                                                </td>
-                                            </tr>
+
+
+
                                         </tbody>
                                     </table>
                                 </div>

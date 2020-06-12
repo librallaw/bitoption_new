@@ -1,17 +1,4 @@
-<!--
- // **************************************************
- // ******* Name: arvid
- // ******* Description: Bootstrap 4 Admin Dashboard
- // ******* Version: 1.0.0
- // ******* Released on 2019-02-27 13:47:58
- // ******* Support Email : quixlab.com@gmail.com
- // ******* Support Skype : sporsho9
- // ******* Author: Quixlab
- // ******* URL: https://quixlab.com
- // ******* Themeforest Profile : https://themeforest.net/user/quixlab
- // ******* License: ISC
- // ***************************************************
--->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -81,7 +68,16 @@
 
 
 
-           <div class="row page-titles mx-0">
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <br />
+                    <br />
+
+                    <div class="breadcrumb-range-picker">
+                        <span><i class="icon-calender"></i></span>
+                        <span class="ml-1">{{date("D, jS M, Y")}}</span>
+                    </div>
+                </div>
 
             </div>
 
@@ -99,7 +95,7 @@
                                             <div class="col-auto">
                                                 <h4 class="mb-3">Account Balance</h4>
                                                 
-                                                <h3 class="mb-3"><span class="counter">0.00</span> </h3>
+                                                <h3 class="mb-3"><span class="counter">{{$balance}}</span> </h3>
                                             </div>
                                             <div class="col-auto">
                                                 <i class="cc BTC-alt" title="BTC"></i>
@@ -116,9 +112,12 @@
                                     <div class="card-body">
                                         <div class="row justify-content-between">
                                             <div class="col-auto">
-                                                <h4 class="mb-3">Active Deposit</h4>
+                                                <h4 class="mb-3">Last Deposit</h4>
                                                 
-                                                <h3 class="mb-3"><span class="counter">0.00</span> </h3>
+                                                <h3 class="mb-3"><span class="counter">{{(!empty($last_deposit)?
+                                                $last_deposit->amount : "0")
+                                                }}</span>
+                                                </h3>
                                             </div>
                                             <div class="col-auto">
                                                 <i class="cc cc ETH-alt" title="ETH"></i>
@@ -133,9 +132,11 @@
                                     <div class="card-body">
                                         <div class="row justify-content-between">
                                             <div class="col-auto">
-                                                <h4 class="mb-3">Total Earned</h4>
+                                                <h4 class="mb-3">Last Withdrawal</h4>
                                                 
-                                                <h3 class="mb-3"><span class="counter">0.00</span> </h3>
+                                                <h3 class="mb-3"><span class="counter">{{(!empty($last_withdrawal)?
+                                                $last_withdrawal->amount : "0")
+                                                }}</span> </h3>
                                             </div>
                                             <div class="col-auto">
                                                 <i class="cc XRP-alt" title="XRP"></i>
@@ -158,7 +159,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="chart-wrapper">
-                                    <h3><strong><span class="counter">0.00</span> USD</strong></h3>
+                                    <h3><strong><span class="counter">{{$total_deposit}}</span> BTC</strong></h3>
                                     <div id="balance_graphd"></div>
                                 </div>
                             </div>
@@ -173,7 +174,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="chart-wrapper">
-                                    <h3><strong><span class="counter">0.00</span> USD</strong></h3>
+                                    <h3><strong><span class="counter">{{$total_withdrawal}}</span> BTC</strong></h3>
                                     <div id="balance_graphd"></div>
                                 </div>
                             </div>
@@ -194,7 +195,28 @@
                                                     <div class="input-group-prepend">
                                                         <span class="input-group-text input-text-btc"><i class="cc BTC-alt"></i></span>
                                                     </div>
-                                                    <input id="input1" type="text" placeholder="1FfmbHfnpaZjKFvyi1okTjJJusN455paPH" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                                    <input id="input1" type="text" value="1GSWgNT2FbPvcfdG1afRMYFSVAgakENhii"  class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                                    <div class="input-group-append">
+                                                        <button data-clipboard-target="#input1" class="btn btn-primary btn-flat clipboard-btn" title="Copy to clipboard" type="button" id="button-addon1"><i class="fa fa-clipboard" aria-hidden="true"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                </div><div class="copy-wallet mt-4">
+                                    <h4 class="card-title">Paypal Address</h4>
+                                    <form action="#">
+                                        <div class="form-row">
+                                            <div class="form-group col-md-12">
+                                                <!-- <label>Bitcoin wallet address</label> -->
+                                                <div class="input-group mb-3 mb-md-0">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text input-text-btc"><i class="
+                                                        fa fa-paypal"></i></span>
+                                                    </div>
+                                                    <div id="input1" type="text" placeholder="1FfmbHfnpaZjKFvyi1okTjJJusN455paPH" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1"><a href="https://www.paypal.me/anastasiachasity" target="_blank">https://www.paypal
+                                                            .me/anastasiachasity</a></div>
                                                     <div class="input-group-append">
                                                         <button data-clipboard-target="#input1" class="btn btn-primary btn-flat clipboard-btn" title="Copy to clipboard" type="button" id="button-addon1"><i class="fa fa-clipboard" aria-hidden="true"></i></button>
                                                     </div>
@@ -217,47 +239,38 @@
                                     <table class="table mb-0 table-responsive-tiny">
                                         <thead>
                                         <tr>
-                                            <th scope="col">Price</th>
+                                            <th scope="col">Reference</th>
                                             <th scope="col">Amount</th>
-                                            <th scope="col">When </th>
+                                            <th scope="col">Time </th>
+                                            <th scope="col">Type </th>
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        <tr>
-                                            <td><strong>0.00000000146464640</strong></td>
-                                            <td>$12,623.40</td>
-                                            <td class="change">
-                                                <span>21 min ago</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>0.00000000146464640</strong></td>
-                                            <td>$12,623.40</td>
-                                            <td class="change">
-                                                <span>21 min ago</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>0.00000000146464640</strong></td>
-                                            <td>$12,623.40</td>
-                                            <td class="change">
-                                                <span>21 min ago</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>0.00000000146464640</strong></td>
-                                            <td>$12,623.40</td>
-                                            <td class="change">
-                                                <span>21 min ago</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>0.00000000146464640</strong></td>
-                                            <td>$12,623.40</td>
-                                            <td class="change">
-                                                <span>21 min ago</span>
-                                            </td>
-                                        </tr>
+                                        @if(count($transactions) > 0)
+                                            @foreach($transactions as $transactions)
+                                                <tr>
+
+                                                    <td><strong>{{$transactions->reference}}</strong></td>
+                                                    <td>{{$transactions->amount}} <span class="BTC">BTC</span></td>
+                                                    <td class="change">
+                                                        <span>{{$transactions->created_at->diffForHumans()}}</span>
+                                                    </td>
+                                                    @if($transactions->type == 1)
+                                                        <td><span class="badge badge-success">Deposit</span>
+                                                        </td>
+                                                        @endif
+                                                    @if($transactions->type == 0)
+                                                        <td><span class="badge badge-danger">Withdrawal</span>
+                                                        </td>
+                                                    @endif
+                                                </tr>
+                                            @endforeach
+                                        @else
+                                            <div>
+                                                No Transaction found
+                                            </div>
+                                        @endif
+
                                         </tbody>
                                     </table>
                                 </div>

@@ -31,19 +31,9 @@
         <div></div>
     </div>
 </div>
-<!-- end per-loader -->
 
-<!-- ================================
-            START HEADER AREA
-================================= -->
-@include("inc.header2)
-<!-- ================================
-         END HEADER AREA
-================================= -->
+@include("inc.header2")
 
-<!-- ================================
-    START BREADCRUMB AREA
-================================= -->
 <section class="breadcrumb-area">
     <div class="container">
         <div class="row">
@@ -52,7 +42,7 @@
                     <div class="breadcrumb-inner">
                         <h2 class="breadcrumb__title">contact us.</h2>
                         <ul class="breadcrumb__list">
-                            <li class="active__list-item"><a href="index.html">home</a></li>
+                            <li class="active__list-item"><a href="/">home</a></li>
                             <li>contact</li>
                         </ul>
                     </div><!-- end breadcrumb-inner -->

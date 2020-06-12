@@ -52,7 +52,7 @@
                     <div class="breadcrumb-inner">
                         <h2 class="breadcrumb__title">about us.</h2>
                         <ul class="breadcrumb__list">
-                            <li class="active__list-item"><a href="index.html">home</a></li>
+                            <li class="active__list-item"><a href="/">home</a></li>
                             <li class="active__list-item">pages</li>
                             <li>about us</li>
                         </ul>
@@ -114,7 +114,7 @@
                 <div class="about-sub-box">
                     <p>
                         Do not hesitate to start with us for better help and services.
-                        <a href="about.html#" class="theme-btn">get started</a>
+                        <a href="/" class="theme-btn">get started</a>
                     </p>
                 </div><!-- end about-sub-box -->
             </div><!-- end col-lg-12 -->
