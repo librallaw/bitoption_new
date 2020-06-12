@@ -44,8 +44,8 @@
 				<small>Control panel</small>
 		  	</h3>
 		  	<ol class="breadcrumb">
-				<li class="breadcrumb-item"><a href="index-3.html#"><i class="fa fa-dashboard"></i> Home</a></li>
-				<li class="breadcrumb-item active">Dashboard</li>
+				<li class="breadcrumb-item"><a href="/home"><i class="fa fa-dashboard"></i> Home</a></li>
+				<li class="breadcrumb-item active">Withdrawal</li>
 		  	</ol>
 		</div>
 
@@ -155,8 +155,8 @@
 
 	<div class="rpanel-title"><span class="pull-right btn btn-circle btn-danger"><i class="ion ion-close text-white" data-toggle="control-sidebar"></i></span> </div>  <!-- Create the tabs -->
     <ul class="nav nav-tabs control-sidebar-tabs">
-      <li class="nav-item"><a href="index-3.html#control-sidebar-home-tab" data-toggle="tab">Chat</a></li>
-      <li class="nav-item"><a href="index-3.html#control-sidebar-settings-tab" data-toggle="tab">Todo</a></li>
+      <li class="nav-item"><a href="#control-sidebar-home-tab" data-toggle="tab">Chat</a></li>
+      <li class="nav-item"><a href="#control-sidebar-settings-tab" data-toggle="tab">Todo</a></li>
     </ul>
     <!-- Tab panes -->
     <div class="tab-content">
@@ -174,12 +174,12 @@
 		  </div>
           <div class="media-list media-list-hover mt-20">
 			<div class="media py-10 px-0">
-			  <a class="avatar avatar-lg status-success" href="index-3.html#">
+			  <a class="avatar avatar-lg status-success" href="#">
 				<img src="/images/avatar/1.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="font-size-16">
-				  <a class="hover-primary" href="index-3.html#"><strong>Tyler</strong></a>
+				  <a class="hover-primary" href="#"><strong>Tyler</strong></a>
 				</p>
 				<p>Praesent tristique diam...</p>
 				  <span>Just now</span>
@@ -187,12 +187,12 @@
 			</div>
 
 			<div class="media py-10 px-0">
-			  <a class="avatar avatar-lg status-danger" href="index-3.html#">
+			  <a class="avatar avatar-lg status-danger" href="#">
 				<img src="/images/avatar/2.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="font-size-16">
-				  <a class="hover-primary" href="index-3.html#"><strong>Luke</strong></a>
+				  <a class="hover-primary" href="#"><strong>Luke</strong></a>
 				</p>
 				<p>Cras tempor diam ...</p>
 				  <span>33 min ago</span>
@@ -200,12 +200,12 @@
 			</div>
 
 			<div class="media py-10 px-0">
-			  <a class="avatar avatar-lg status-warning" href="index-3.html#">
+			  <a class="avatar avatar-lg status-warning" href="#">
 				<img src="/images/avatar/3.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="font-size-16">
-				  <a class="hover-primary" href="index-3.html#"><strong>Evan</strong></a>
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
 				</p>
 				<p>In posuere tortor vel...</p>
 				  <span>42 min ago</span>
@@ -213,12 +213,12 @@
 			</div>
 
 			<div class="media py-10 px-0">
-			  <a class="avatar avatar-lg status-primary" href="index-3.html#">
+			  <a class="avatar avatar-lg status-primary" href="#">
 				<img src="/images/avatar/4.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="font-size-16">
-				  <a class="hover-primary" href="index-3.html#"><strong>Evan</strong></a>
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
 				</p>
 				<p>In posuere tortor vel...</p>
 				  <span>42 min ago</span>
@@ -226,12 +226,12 @@
 			</div>
 
 			<div class="media py-10 px-0">
-			  <a class="avatar avatar-lg status-success" href="index-3.html#">
+			  <a class="avatar avatar-lg status-success" href="#">
 				<img src="/images/avatar/1.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="font-size-16">
-				  <a class="hover-primary" href="index-3.html#"><strong>Tyler</strong></a>
+				  <a class="hover-primary" href="#"><strong>Tyler</strong></a>
 				</p>
 				<p>Praesent tristique diam...</p>
 				  <span>Just now</span>
@@ -239,12 +239,12 @@
 			</div>
 
 			<div class="media py-10 px-0">
-			  <a class="avatar avatar-lg status-danger" href="index-3.html#">
+			  <a class="avatar avatar-lg status-danger" href="#">
 				<img src="/images/avatar/2.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="font-size-16">
-				  <a class="hover-primary" href="index-3.html#"><strong>Luke</strong></a>
+				  <a class="hover-primary" href="#"><strong>Luke</strong></a>
 				</p>
 				<p>Cras tempor diam ...</p>
 				  <span>33 min ago</span>
@@ -252,12 +252,12 @@
 			</div>
 
 			<div class="media py-10 px-0">
-			  <a class="avatar avatar-lg status-warning" href="index-3.html#">
+			  <a class="avatar avatar-lg status-warning" href="#">
 				<img src="/images/avatar/3.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="font-size-16">
-				  <a class="hover-primary" href="index-3.html#"><strong>Evan</strong></a>
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
 				</p>
 				<p>In posuere tortor vel...</p>
 				  <span>42 min ago</span>
@@ -265,12 +265,12 @@
 			</div>
 
 			<div class="media py-10 px-0">
-			  <a class="avatar avatar-lg status-primary" href="index-3.html#">
+			  <a class="avatar avatar-lg status-primary" href="#">
 				<img src="/images/avatar/4.jpg" alt="...">
 			  </a>
 			  <div class="media-body">
 				<p class="font-size-16">
-				  <a class="hover-primary" href="index-3.html#"><strong>Evan</strong></a>
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
 				</p>
 				<p>In posuere tortor vel...</p>
 				  <span>42 min ago</span>
